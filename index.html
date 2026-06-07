@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html class="dark scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ProPresence Digital | We Build Digital Authority</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@600;700&amp;family=Geist:wght@500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "secondary": "#4edea3",
+                      "on-error-container": "#ffdad6",
+                      "outline-variant": "#434655",
+                      "on-tertiary": "#003640",
+                      "surface-dim": "#0b1326",
+                      "tertiary-container": "#00788c",
+                      "on-secondary-container": "#00311f",
+                      "surface-tint": "#b4c5ff",
+                      "background": "#0b1326",
+                      "surface-container-high": "#222a3d",
+                      "secondary-container": "#00a572",
+                      "on-surface-variant": "#c3c6d7",
+                      "on-surface": "#dae2fd",
+                      "on-secondary-fixed-variant": "#005236",
+                      "surface": "#0b1326",
+                      "primary-container": "#2563eb",
+                      "on-primary-container": "#eeefff",
+                      "on-primary": "#002a78",
+                      "secondary-fixed-dim": "#4edea3",
+                      "inverse-surface": "#dae2fd",
+                      "primary-fixed-dim": "#b4c5ff",
+                      "secondary-fixed": "#6ffbbe",
+                      "inverse-on-surface": "#283044",
+                      "inverse-primary": "#0053db",
+                      "on-background": "#dae2fd",
+                      "surface-container": "#171f33",
+                      "surface-bright": "#31394d",
+                      "on-primary-fixed-variant": "#003ea8",
+                      "primary": "#b4c5ff",
+                      "primary-fixed": "#dbe1ff",
+                      "tertiary-fixed-dim": "#4cd7f6",
+                      "on-primary-fixed": "#00174b",
+                      "tertiary": "#4cd7f6",
+                      "on-secondary-fixed": "#002113",
+                      "on-error": "#690005",
+                      "on-tertiary-fixed": "#001f26",
+                      "surface-variant": "#2d3449",
+                      "surface-container-highest": "#2d3449",
+                      "on-secondary": "#003824",
+                      "on-tertiary-container": "#d7f6ff",
+                      "surface-container-low": "#131b2e",
+                      "error": "#ffb4ab",
+                      "error-container": "#93000a",
+                      "outline": "#8d90a0",
+                      "surface-container-lowest": "#060e20",
+                      "tertiary-fixed": "#acedff",
+                      "on-tertiary-fixed-variant": "#004e5c"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "1rem",
+                      "2xl": "1.5rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "base": "8px",
+                      "margin-mobile": "20px",
+                      "gutter-desktop": "24px",
+                      "margin-desktop": "64px",
+                      "gutter-mobile": "16px",
+                      "stack-lg": "32px",
+                      "stack-sm": "8px",
+                      "stack-md": "16px",
+                      "stack-xl": "64px",
+                      "container-max": "1280px"
+              },
+              "fontFamily": {
+                      "body-md": ["Inter"],
+                      "headline-xl": ["Hanken Grotesk"],
+                      "headline-lg": ["Hanken Grotesk"],
+                      "label-sm": ["Geist"],
+                      "display-lg": ["Hanken Grotesk"]
+              },
+              "fontSize": {
+                      "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                      "headline-xl": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700"}],
+                      "headline-lg": ["32px", {"lineHeight": "1.25", "letterSpacing": "0.01em", "fontWeight": "600"}],
+                      "label-sm": ["12px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "500"}],
+                      "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.03em", "fontWeight": "700"}]
+              }
+            },
+          },
+        }
+    </script>
+<style>
+        body {
+            background-color: #0b1326;
+            color: #dae2fd;
+            font-family: 'Inter', sans-serif;
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        /* Decorative Background Orbs & Pulse */
+        .orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(120px);
+            z-index: -1;
+            opacity: 0.15;
+            pointer-events: none;
+            animation: pulse-glow 8s ease-in-out infinite alternate;
+        }
+        @keyframes pulse-glow {
+            0% { transform: scale(1) translate(0, 0); opacity: 0.1; }
+            100% { transform: scale(1.1) translate(20px, -20px); opacity: 0.2; }
+        }
+        .orb-1 { width: 600px; height: 600px; background: radial-gradient(circle, #2563eb, transparent); top: -100px; left: -200px; }
+        .orb-2 { width: 500px; height: 500px; background: radial-gradient(circle, #4edea3, transparent); top: 20%; right: -100px; animation-delay: -2s; }
+        .orb-3 { width: 700px; height: 700px; background: radial-gradient(circle, #2563eb, transparent); bottom: 10%; left: -100px; animation-delay: -4s; }
+
+        /* Particle Background Simulation */
+        .particles-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(circle, rgba(180, 197, 255, 0.05) 1px, transparent 1px);
+            background-size: 60px 60px;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.02);
+            transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-card:hover {
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(180, 197, 255, 0.4);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), inset 0 0 20px rgba(180, 197, 255, 0.15);
+            transform: translateY(-8px) scale(1.02);
+        }
+        
+        .blue-glow {
+            box-shadow: 0 0 25px rgba(37, 99, 235, 0.3);
+        }
+        
+        .premium-gradient-text {
+            background: linear-gradient(135deg, #b4c5ff 0%, #4edea3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .text-shadow-subtle {
+            text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .line-draw {
+            position: relative;
+        }
+        .line-draw::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #b4c5ff;
+            transition: width 0.3s ease;
+        }
+        .line-draw:hover::after {
+            width: 100%;
+        }
+
+        /* Shimmer Animation for CTA */
+        @keyframes shimmer {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        .shimmer-effect {
+            position: relative;
+            overflow: hidden;
+        }
+        .shimmer-effect::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: translateX(-100%);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(2deg); }
+            50% { transform: translateY(-15px) rotate(0deg); }
+            100% { transform: translateY(0px) rotate(2deg); }
+        }
+        .animate-float {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Reveal Animation Base Classes */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden antialiased">
+<div class="particles-overlay"></div>
+<!-- Background Decor -->
+<div class="orb orb-1"></div>
+<div class="orb orb-2"></div>
+<div class="orb orb-3"></div>
+<!-- TopNavBar -->
+<header class="fixed top-0 w-full z-50 transition-all duration-500 border-b border-white/5">
+<nav class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-4">
+<img alt="ProPresence Logo" class="h-10 w-auto object-contain filter drop-shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCofKXFC2XYXsoubuhyX3qJ13xNzffBBhVSaLwELdQDSxSFoh7n3ID_CLtr5aDIghEtuTEsm0WghTLqv5WI4iZc1XWm6tWQ4DdvyOaMLDds-I1-NZANH8J6pXgIfIkv1BP9fvfh3h4GSTuVmSb6kDsQUIv7C9S12jEckZsneSWCuwQQdPxFeAzvgc_A83jBES6UgJL1ENXKXtsT2IIK2EcYkCs1i4YNWAsn6qFsKh4SdkWNjnR2biMAoy6IUx-hCyIWIve11WQSZLc"/>
+<div class="font-headline-lg text-2xl font-bold tracking-tight text-white">ProPresence<span class="text-primary">.</span></div>
+</div>
+<div class="hidden md:flex gap-10 items-center">
+<a class="text-primary font-semibold relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary font-body-md text-body-md" href="#">Services</a>
+<a class="text-on-surface/70 hover:text-white transition-colors font-body-md text-body-md line-draw" href="#">Process</a>
+<a class="text-on-surface/70 hover:text-white transition-colors font-body-md text-body-md line-draw" href="#">Guarantee</a>
+<a class="text-on-surface/70 hover:text-white transition-colors font-body-md text-body-md line-draw" href="#">Case Studies</a>
+</div>
+<button class="bg-primary-container text-white font-bold px-7 py-2.5 rounded-full hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:scale-105 active:scale-95 transition-all duration-300 shimmer-effect">
+            Get Started
+        </button>
+</nav>
+</header>
+<main class="pt-40">
+<!-- Hero Section -->
+<section class="reveal max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-stack-xl items-center pb-24">
+<div class="relative z-10">
+<h1 class="font-display-lg text-display-lg mb-stack-md leading-tight text-shadow-subtle">
+                We Build <br/><span class="premium-gradient-text">Digital Authority.</span>
+</h1>
+<p class="font-body-md text-lg text-on-surface/80 mb-stack-lg max-w-lg leading-relaxed">
+                ProPresence Digital crafts high-performance, custom websites that turn casual visitors into loyal customers. No templates. No clutter. Just pure business growth.
+            </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary-container text-white px-8 py-4 rounded-xl font-bold blue-glow hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1 transition-all duration-300 shimmer-effect">
+                    Get Your Free Concept Design
+                </button>
+</div>
+</div>
+<div class="relative">
+<div class="absolute inset-0 bg-primary/20 blur-[100px] rounded-full scale-75 opacity-30"></div>
+<div class="glass-card rounded-2xl p-3 overflow-hidden transform animate-float relative z-10">
+<div class="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent opacity-30 pointer-events-none"></div>
+<img alt="Premium Dashboard UI" class="w-full h-auto rounded-xl shadow-2xl border border-white/5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVPzGLu0melutqWH88eonne6jG6lEE6Nmgn0nGehSS2EXC3BC27II0qgEPPBqL6xLB4KRuITqrwJnlHA-j3HcqZ7fvRqi6hw06GeYyhvlBb2negt9kx9AsTrfibY5O65ZGNsfAX9J5UO_c8WhBBINeMh8IBALROqLXqiAdbr5EFZL42hjs3e3FaElI-UXQEnoSLxvpXiiHBBB_0UEcNoeN0T0Wl3WFDPHDL3MUCB8pDE0TTHMdFwNEAQPnk3pkmaH-9H5PLJQYUR8"/>
+</div>
+</div>
+</section>
+<!-- Metrics Strip -->
+<section class="reveal bg-white/5 backdrop-blur-sm py-8 border-y border-white/10">
+<div class="max-w-container-max mx-auto px-margin-desktop flex flex-wrap justify-between items-center gap-stack-md">
+<div class="flex items-center gap-3 group">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+<span class="material-symbols-outlined text-primary text-xl">verified_user</span>
+</div>
+<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80">100% Custom Architecture</span>
+</div>
+<div class="flex items-center gap-3 group">
+<div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center group-hover:bg-secondary/20 transition-colors">
+<span class="material-symbols-outlined text-secondary text-xl">bolt</span>
+</div>
+<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80">Blazing-Fast Loading</span>
+</div>
+<div class="flex items-center gap-3 group">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 flex items-center justify-center group-hover:bg-tertiary/20 transition-colors">
+<span class="material-symbols-outlined text-tertiary text-xl">devices</span>
+</div>
+<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80">Mobile-Optimized</span>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="reveal max-w-container-max mx-auto px-margin-desktop py-stack-xl">
+<div class="text-center mb-16">
+<h2 class="font-headline-xl text-headline-xl mb-4 tracking-tight">Expert <span class="premium-gradient-text">Engineering</span></h2>
+<p class="font-body-md text-on-surface-variant max-w-xl mx-auto text-lg">Engineered for performance, designed for conversion.</p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Service 1 -->
+<div class="glass-card p-8 rounded-2xl flex flex-col items-start gap-6">
+<div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center border border-primary/20">
+<span class="material-symbols-outlined text-primary text-3xl">code</span>
+</div>
+<h3 class="font-headline-lg text-2xl">Ground-Up Development</h3>
+<p class="font-body-md text-on-surface/70 leading-relaxed">We build scalable, secure, and lightning-fast digital experiences from scratch using modern tech stacks.</p>
+</div>
+<!-- Service 2 -->
+<div class="glass-card p-8 rounded-2xl flex flex-col items-start gap-6">
+<div class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center border border-secondary/20">
+<span class="material-symbols-outlined text-secondary text-3xl">auto_fix_high</span>
+</div>
+<h3 class="font-headline-lg text-2xl">Digital Revamps</h3>
+<p class="font-body-md text-on-surface/70 leading-relaxed">Modernize your outdated presence. We overhaul UI/UX and optimize legacy code for current market standards.</p>
+</div>
+<!-- Service 3 -->
+<div class="glass-card p-8 rounded-2xl flex flex-col items-start gap-6">
+<div class="w-14 h-14 rounded-xl bg-tertiary/10 flex items-center justify-center border border-tertiary/20">
+<span class="material-symbols-outlined text-tertiary text-3xl">filter_alt</span>
+</div>
+<h3 class="font-headline-lg text-2xl">Lead &amp; Sales Funnels</h3>
+<p class="font-body-md text-on-surface/70 leading-relaxed">High-conversion landing pages engineered to guide visitors through a seamless journey to purchase.</p>
+</div>
+</div>
+</section>
+<!-- Risk-Free Guarantee -->
+<section class="reveal max-w-container-max mx-auto px-margin-desktop mb-24">
+<div class="relative overflow-hidden glass-card rounded-3xl p-12 bg-gradient-to-br from-white/5 to-primary/5">
+<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/20 blur-[120px] rounded-full"></div>
+<div class="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary/10 blur-[100px] rounded-full"></div>
+<div class="relative z-10 md:flex items-center justify-between gap-12">
+<div class="max-w-2xl">
+<h2 class="font-headline-xl text-4xl md:text-5xl mb-6 leading-tight">Our Risk-Free Guarantee: <br/><span class="text-secondary">Design First, Pay Later.</span></h2>
+<p class="font-body-md text-lg text-on-surface/80 mb-8 leading-relaxed">
+                        We are so confident in our engineering that we'll provide a high-fidelity custom blueprint for your brand before you commit. No strings attached.
+                    </p>
+<button class="bg-primary-container text-white font-bold px-10 py-4 rounded-xl flex items-center gap-3 hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] hover:-translate-y-1 transition-all duration-300 shimmer-effect">
+                        Claim Your Free Blueprint via DM
+                        <span class="material-symbols-outlined">send</span>
+</button>
+</div>
+<div class="hidden lg:block">
+<div class="relative">
+<div class="absolute inset-0 bg-primary/20 blur-3xl rounded-full opacity-50"></div>
+<span class="material-symbols-outlined text-[180px] text-primary relative z-10 filter drop-shadow-[0_0_30px_rgba(37,99,235,0.3)]" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3-Step Journey -->
+<section class="reveal max-w-container-max mx-auto px-margin-desktop py-stack-xl">
+<div class="text-center mb-16">
+<h2 class="font-headline-xl tracking-tight">Your Path to <span class="premium-gradient-text">Authority</span></h2>
+</div>
+<div class="flex flex-col md:flex-row justify-between relative gap-8">
+<!-- Journey Line -->
+<div class="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent hidden md:block z-0"></div>
+<!-- Step 1 -->
+<div class="relative z-10 flex-1 glass-card p-10 rounded-2xl text-center group">
+<div class="w-14 h-14 bg-primary text-on-primary rounded-2xl flex items-center justify-center mx-auto mb-6 font-bold text-xl shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform duration-300">01</div>
+<h4 class="font-label-sm uppercase tracking-[0.2em] text-primary mb-4">Consult &amp; Discovery</h4>
+<p class="font-body-md text-on-surface/70">Deep dive into your business goals, target audience, and technical requirements.</p>
+</div>
+<!-- Step 2 -->
+<div class="relative z-10 flex-1 glass-card p-10 rounded-2xl text-center group">
+<div class="w-14 h-14 bg-secondary text-on-secondary rounded-2xl flex items-center justify-center mx-auto mb-6 font-bold text-xl shadow-lg shadow-secondary/20 group-hover:scale-110 transition-transform duration-300">02</div>
+<h4 class="font-label-sm uppercase tracking-[0.2em] text-secondary mb-4">Free Custom Design</h4>
+<p class="font-body-md text-on-surface/70">Receive a high-fidelity concept design tailored to your brand identity.</p>
+</div>
+<!-- Step 3 -->
+<div class="relative z-10 flex-1 glass-card p-10 rounded-2xl text-center group">
+<div class="w-14 h-14 bg-tertiary text-on-tertiary rounded-2xl flex items-center justify-center mx-auto mb-6 font-bold text-xl shadow-lg shadow-tertiary/20 group-hover:scale-110 transition-transform duration-300">03</div>
+<h4 class="font-label-sm uppercase tracking-[0.2em] text-tertiary mb-4">Seamless Launch</h4>
+<p class="font-body-md text-on-surface/70">Full-stack development, rigorous testing, and high-performance deployment.</p>
+</div>
+</div>
+</section>
+</main>
+<!-- Enhanced Footer -->
+<footer class="bg-surface-container-lowest/40 backdrop-blur-2xl border-t border-white/5 py-20 w-full mt-24 relative overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-50"></div>
+<div class="max-w-container-max mx-auto px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<!-- Col 1: Brand -->
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<img alt="ProPresence Logo" class="h-10 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCofKXFC2XYXsoubuhyX3qJ13xNzffBBhVSaLwELdQDSxSFoh7n3ID_CLtr5aDIghEtuTEsm0WghTLqv5WI4iZc1XWm6tWQ4DdvyOaMLDds-I1-NZANH8J6pXgIfIkv1BP9fvfh3h4GSTuVmSb6kDsQUIv7C9S12jEckZsneSWCuwQQdPxFeAzvgc_A83jBES6UgJL1ENXKXtsT2IIK2EcYkCs1i4YNWAsn6qFsKh4SdkWNjnR2biMAoy6IUx-hCyIWIve11WQSZLc"/>
+<div class="font-headline-lg text-2xl font-bold tracking-tight text-white">ProPresence<span class="text-primary">.</span></div>
+</div>
+<p class="text-on-surface/60 font-body-md leading-relaxed">
+                    Elevating brands through sophisticated engineering and custom digital solutions. We transform complex challenges into seamless experiences.
+                </p>
+<div class="font-label-sm text-primary tracking-widest uppercase">Digital Authority Framework</div>
+</div>
+<!-- Col 2: Services -->
+<div class="space-y-6">
+<h5 class="font-headline-lg text-lg text-white">Services</h5>
+<ul class="space-y-4">
+<li><a class="text-on-surface/60 hover:text-primary transition-colors font-body-md line-draw" href="#">Custom Development</a></li>
+<li><a class="text-on-surface/60 hover:text-secondary transition-colors font-body-md line-draw" href="#">Digital Revamps</a></li>
+<li><a class="text-on-surface/60 hover:text-tertiary transition-colors font-body-md line-draw" href="#">Sales Funnels</a></li>
+</ul>
+</div>
+<!-- Col 3: Company -->
+<div class="space-y-6">
+<h5 class="font-headline-lg text-lg text-white">Company</h5>
+<ul class="space-y-4">
+<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md line-draw" href="#">Process</a></li>
+<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md line-draw" href="#">Guarantee</a></li>
+<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md line-draw" href="#">Case Studies</a></li>
+</ul>
+</div>
+<!-- Col 4: Connect -->
+<div class="space-y-6">
+<h5 class="font-headline-lg text-lg text-white">Connect</h5>
+<div class="flex flex-col gap-4">
+<a class="flex items-center gap-3 text-on-surface/60 hover:text-primary transition-colors group" href="#">
+<span class="w-10 h-10 rounded-lg border border-white/10 flex items-center justify-center group-hover:border-primary/50 group-hover:bg-primary/5">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4s1.791-4 4-4 4 1.791 4 4-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+</span>
+<span class="font-body-md">Instagram</span>
+</a>
+<a class="flex items-center gap-3 text-on-surface/60 hover:text-primary transition-colors group" href="#">
+<span class="w-10 h-10 rounded-lg border border-white/10 flex items-center justify-center group-hover:border-primary/50 group-hover:bg-primary/5">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</span>
+<span class="font-body-md">LinkedIn</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Bottom Bar -->
+<div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="font-label-sm text-on-surface/40 tracking-wider">
+                © 2024 ProPresence Digital. Sophisticated Engineering.
+            </p>
+<div class="flex gap-8">
+<a class="text-on-surface/40 hover:text-white transition-colors font-label-sm tracking-widest uppercase" href="#">Privacy Policy</a>
+<a class="text-on-surface/40 hover:text-white transition-colors font-label-sm tracking-widest uppercase" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+<script>
+    // Reveal Animations using Intersection Observer
+    const revealCallback = (entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('active');
+                // Stagger children if needed
+                const children = entry.target.querySelectorAll('.glass-card');
+                children.forEach((child, index) => {
+                    child.style.transitionDelay = `${index * 150}ms`;
+                    child.classList.add('active');
+                });
+            }
+        });
+    };
+
+    const revealObserver = new IntersectionObserver(revealCallback, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    });
+
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    // Refined Scroll Interactions for Header
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('bg-surface/90', 'backdrop-blur-2xl', 'py-3', 'shadow-2xl', 'border-primary/10');
+            header.classList.remove('py-4', 'border-white/5');
+        } else {
+            header.classList.remove('bg-surface/90', 'backdrop-blur-2xl', 'py-3', 'shadow-2xl', 'border-primary/10');
+            header.classList.add('py-4', 'border-white/5');
+        }
+    });
+
+    // Particle Interaction (Optional: could add actual JS particles here, but using CSS for performance)
+</script>
+</body></html>
