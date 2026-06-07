@@ -111,19 +111,28 @@
         .orb {
             position: absolute;
             border-radius: 50%;
-            filter: blur(120px);
+            filter: blur(80px);
             z-index: -1;
             opacity: 0.15;
             pointer-events: none;
             animation: pulse-glow 8s ease-in-out infinite alternate;
         }
+        @media (min-width: 768px) {
+            .orb { filter: blur(120px); }
+        }
         @keyframes pulse-glow {
             0% { transform: scale(1) translate(0, 0); opacity: 0.1; }
             100% { transform: scale(1.1) translate(20px, -20px); opacity: 0.2; }
         }
-        .orb-1 { width: 600px; height: 600px; background: radial-gradient(circle, #2563eb, transparent); top: -100px; left: -200px; }
-        .orb-2 { width: 500px; height: 500px; background: radial-gradient(circle, #4edea3, transparent); top: 20%; right: -100px; animation-delay: -2s; }
-        .orb-3 { width: 700px; height: 700px; background: radial-gradient(circle, #2563eb, transparent); bottom: 10%; left: -100px; animation-delay: -4s; }
+        .orb-1 { width: 300px; height: 300px; background: radial-gradient(circle, #2563eb, transparent); top: -50px; left: -100px; }
+        .orb-2 { width: 250px; height: 250px; background: radial-gradient(circle, #4edea3, transparent); top: 20%; right: -50px; animation-delay: -2s; }
+        .orb-3 { width: 350px; height: 350px; background: radial-gradient(circle, #2563eb, transparent); bottom: 10%; left: -50px; animation-delay: -4s; }
+
+        @media (min-width: 1024px) {
+            .orb-1 { width: 600px; height: 600px; }
+            .orb-2 { width: 500px; height: 500px; }
+            .orb-3 { width: 700px; height: 700px; }
+        }
 
         /* Particle Background Simulation */
         .particles-overlay {
@@ -224,6 +233,16 @@
             opacity: 1;
             transform: translateY(0);
         }
+
+        /* Mobile Menu Transitions */
+        #mobile-menu {
+            transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        }
+        #mobile-menu.hidden-menu {
+            transform: translateY(-10px);
+            opacity: 0;
+            pointer-events: none;
+        }
     </style>
 </head>
 <body class="overflow-x-hidden antialiased">
@@ -233,42 +252,61 @@
 <div class="orb orb-2"></div>
 <div class="orb orb-3"></div>
 <!-- TopNavBar -->
-<header class="fixed top-0 w-full z-50 transition-all duration-500 border-b border-white/5">
-<nav class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
-<div class="flex items-center gap-4">
-<img alt="ProPresence Logo" class="h-10 w-auto object-contain filter drop-shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCofKXFC2XYXsoubuhyX3qJ13xNzffBBhVSaLwELdQDSxSFoh7n3ID_CLtr5aDIghEtuTEsm0WghTLqv5WI4iZc1XWm6tWQ4DdvyOaMLDds-I1-NZANH8J6pXgIfIkv1BP9fvfh3h4GSTuVmSb6kDsQUIv7C9S12jEckZsneSWCuwQQdPxFeAzvgc_A83jBES6UgJL1ENXKXtsT2IIK2EcYkCs1i4YNWAsn6qFsKh4SdkWNjnR2biMAoy6IUx-hCyIWIve11WQSZLc"/>
-<div class="font-headline-lg text-2xl font-bold tracking-tight text-white">ProPresence<span class="text-primary">.</span></div>
+<header class="fixed top-0 w-full z-50 transition-all duration-500 border-b border-white/5 bg-surface/90 backdrop-blur-2xl md:bg-transparent md:backdrop-blur-none">
+<nav class="flex justify-between items-center px-6 md:px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="flex items-center gap-3 md:gap-4">
+<img alt="ProPresence Logo" class="h-8 md:h-10 w-auto object-contain filter drop-shadow-lg" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCofKXFC2XYXsoubuhyX3qJ13xNzffBBhVSaLwELdQDSxSFoh7n3ID_CLtr5aDIghEtuTEsm0WghTLqv5WI4iZc1XWm6tWQ4DdvyOaMLDds-I1-NZANH8J6pXgIfIkv1BP9fvfh3h4GSTuVmSb6kDsQUIv7C9S12jEckZsneSWCuwQQdPxFeAzvgc_A83jBES6UgJL1ENXKXtsT2IIK2EcYkCs1i4YNWAsn6qFsKh4SdkWNjnR2biMAoy6IUx-hCyIWIve11WQSZLc"/>
+<div class="font-headline-lg text-xl md:text-2xl font-bold tracking-tight text-white">ProPresence<span class="text-primary">.</span></div>
 </div>
+<!-- Desktop Nav -->
 <div class="hidden md:flex gap-10 items-center">
 <a class="text-primary font-semibold relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-primary font-body-md text-body-md" href="#">Services</a>
 <a class="text-on-surface/70 hover:text-white transition-colors font-body-md text-body-md line-draw" href="#">Process</a>
 <a class="text-on-surface/70 hover:text-white transition-colors font-body-md text-body-md line-draw" href="#">Guarantee</a>
 <a class="text-on-surface/70 hover:text-white transition-colors font-body-md text-body-md line-draw" href="#">Case Studies</a>
 </div>
-<button class="bg-primary-container text-white font-bold px-7 py-2.5 rounded-full hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:scale-105 active:scale-95 transition-all duration-300 shimmer-effect">
-            Get Started
-        </button>
+<div class="flex items-center gap-4">
+<button class="hidden sm:block bg-primary-container text-white font-bold px-7 py-2.5 rounded-full hover:shadow-[0_0_20px_rgba(37,99,235,0.4)] hover:scale-105 active:scale-95 transition-all duration-300 shimmer-effect">
+                Get Started
+            </button>
+<!-- Mobile Menu Toggle -->
+<button class="md:hidden text-white p-2" id="menu-toggle">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</button>
+</div>
 </nav>
+<!-- Mobile Menu -->
+<div class="hidden-menu absolute top-full left-0 w-full bg-surface-container-high border-b border-white/10 md:hidden overflow-hidden shadow-2xl" id="mobile-menu">
+<div class="flex flex-col p-6 gap-6">
+<a class="text-primary font-semibold text-lg" href="#">Services</a>
+<a class="text-on-surface/70 text-lg" href="#">Process</a>
+<a class="text-on-surface/70 text-lg" href="#">Guarantee</a>
+<a class="text-on-surface/70 text-lg" href="#">Case Studies</a>
+<button class="sm:hidden w-full bg-primary-container text-white font-bold py-4 rounded-xl shimmer-effect">
+                Get Started
+            </button>
+</div>
+</div>
 </header>
-<main class="pt-40">
+<main class="pt-28 md:pt-40">
 <!-- Hero Section -->
-<section class="reveal max-w-container-max mx-auto px-margin-desktop grid md:grid-cols-2 gap-stack-xl items-center pb-24">
-<div class="relative z-10">
-<h1 class="font-display-lg text-display-lg mb-stack-md leading-tight text-shadow-subtle">
+<section class="reveal max-w-container-max mx-auto px-6 md:px-margin-desktop grid md:grid-cols-2 gap-12 md:gap-stack-xl items-center pb-16 md:pb-24">
+<div class="relative z-10 text-center md:text-left">
+<h1 class="font-display-lg text-4xl sm:text-5xl md:text-display-lg mb-6 md:mb-stack-md leading-tight text-shadow-subtle">
                 We Build <br/><span class="premium-gradient-text">Digital Authority.</span>
 </h1>
-<p class="font-body-md text-lg text-on-surface/80 mb-stack-lg max-w-lg leading-relaxed">
+<p class="font-body-md text-base md:text-lg text-on-surface/80 mb-8 md:mb-stack-lg max-w-lg mx-auto md:mx-0 leading-relaxed">
                 ProPresence Digital crafts high-performance, custom websites that turn casual visitors into loyal customers. No templates. No clutter. Just pure business growth.
             </p>
-<div class="flex flex-wrap gap-4">
-<button class="bg-primary-container text-white px-8 py-4 rounded-xl font-bold blue-glow hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1 transition-all duration-300 shimmer-effect">
+<div class="flex flex-wrap justify-center md:justify-start gap-4">
+<button class="w-full sm:w-auto bg-primary-container text-white px-8 py-4 rounded-xl font-bold blue-glow hover:shadow-[0_0_30px_rgba(37,99,235,0.5)] hover:-translate-y-1 transition-all duration-300 shimmer-effect">
                     Get Your Free Concept Design
                 </button>
 </div>
 </div>
-<div class="relative">
-<div class="absolute inset-0 bg-primary/20 blur-[100px] rounded-full scale-75 opacity-30"></div>
-<div class="glass-card rounded-2xl p-3 overflow-hidden transform animate-float relative z-10">
+<div class="relative mt-8 md:mt-0">
+<div class="absolute inset-0 bg-primary/20 blur-[60px] md:blur-[100px] rounded-full scale-75 opacity-30"></div>
+<div class="glass-card rounded-2xl p-2 md:p-3 overflow-hidden transform md:animate-float relative z-10">
 <div class="absolute inset-0 bg-gradient-to-tr from-white/10 to-transparent opacity-30 pointer-events-none"></div>
 <img alt="Premium Dashboard UI" class="w-full h-auto rounded-xl shadow-2xl border border-white/5" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVPzGLu0melutqWH88eonne6jG6lEE6Nmgn0nGehSS2EXC3BC27II0qgEPPBqL6xLB4KRuITqrwJnlHA-j3HcqZ7fvRqi6hw06GeYyhvlBb2negt9kx9AsTrfibY5O65ZGNsfAX9J5UO_c8WhBBINeMh8IBALROqLXqiAdbr5EFZL42hjs3e3FaElI-UXQEnoSLxvpXiiHBBB_0UEcNoeN0T0Wl3WFDPHDL3MUCB8pDE0TTHMdFwNEAQPnk3pkmaH-9H5PLJQYUR8"/>
 </div>
@@ -276,73 +314,73 @@
 </section>
 <!-- Metrics Strip -->
 <section class="reveal bg-white/5 backdrop-blur-sm py-8 border-y border-white/10">
-<div class="max-w-container-max mx-auto px-margin-desktop flex flex-wrap justify-between items-center gap-stack-md">
+<div class="max-w-container-max mx-auto px-6 md:px-margin-desktop flex flex-col md:flex-row justify-between items-start md:items-center gap-6 md:gap-stack-md">
 <div class="flex items-center gap-3 group">
 <div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors">
 <span class="material-symbols-outlined text-primary text-xl">verified_user</span>
 </div>
-<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80">100% Custom Architecture</span>
+<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80 text-xs md:text-sm">100% Custom Architecture</span>
 </div>
 <div class="flex items-center gap-3 group">
 <div class="w-10 h-10 rounded-full bg-secondary/10 flex items-center justify-center group-hover:bg-secondary/20 transition-colors">
 <span class="material-symbols-outlined text-secondary text-xl">bolt</span>
 </div>
-<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80">Blazing-Fast Loading</span>
+<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80 text-xs md:text-sm">Blazing-Fast Loading</span>
 </div>
 <div class="flex items-center gap-3 group">
 <div class="w-10 h-10 rounded-full bg-tertiary/10 flex items-center justify-center group-hover:bg-tertiary/20 transition-colors">
 <span class="material-symbols-outlined text-tertiary text-xl">devices</span>
 </div>
-<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80">Mobile-Optimized</span>
+<span class="font-label-sm uppercase tracking-[0.2em] text-on-surface/80 text-xs md:text-sm">Mobile-Optimized</span>
 </div>
 </div>
 </section>
 <!-- Services Grid -->
-<section class="reveal max-w-container-max mx-auto px-margin-desktop py-stack-xl">
-<div class="text-center mb-16">
-<h2 class="font-headline-xl text-headline-xl mb-4 tracking-tight">Expert <span class="premium-gradient-text">Engineering</span></h2>
-<p class="font-body-md text-on-surface-variant max-w-xl mx-auto text-lg">Engineered for performance, designed for conversion.</p>
+<section class="reveal max-w-container-max mx-auto px-6 md:px-margin-desktop py-16 md:py-stack-xl">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-xl text-3xl md:text-headline-xl mb-4 tracking-tight">Expert <span class="premium-gradient-text">Engineering</span></h2>
+<p class="font-body-md text-on-surface-variant max-w-xl mx-auto text-base md:text-lg">Engineered for performance, designed for conversion.</p>
 </div>
-<div class="grid md:grid-cols-3 gap-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 <!-- Service 1 -->
 <div class="glass-card p-8 rounded-2xl flex flex-col items-start gap-6">
 <div class="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center border border-primary/20">
 <span class="material-symbols-outlined text-primary text-3xl">code</span>
 </div>
-<h3 class="font-headline-lg text-2xl">Ground-Up Development</h3>
-<p class="font-body-md text-on-surface/70 leading-relaxed">We build scalable, secure, and lightning-fast digital experiences from scratch using modern tech stacks.</p>
+<h3 class="font-headline-lg text-xl md:text-2xl">Ground-Up Development</h3>
+<p class="font-body-md text-on-surface/70 leading-relaxed text-sm md:text-base">We build scalable, secure, and lightning-fast digital experiences from scratch using modern tech stacks.</p>
 </div>
 <!-- Service 2 -->
 <div class="glass-card p-8 rounded-2xl flex flex-col items-start gap-6">
 <div class="w-14 h-14 rounded-xl bg-secondary/10 flex items-center justify-center border border-secondary/20">
 <span class="material-symbols-outlined text-secondary text-3xl">auto_fix_high</span>
 </div>
-<h3 class="font-headline-lg text-2xl">Digital Revamps</h3>
-<p class="font-body-md text-on-surface/70 leading-relaxed">Modernize your outdated presence. We overhaul UI/UX and optimize legacy code for current market standards.</p>
+<h3 class="font-headline-lg text-xl md:text-2xl">Digital Revamps</h3>
+<p class="font-body-md text-on-surface/70 leading-relaxed text-sm md:text-base">Modernize your outdated presence. We overhaul UI/UX and optimize legacy code for current market standards.</p>
 </div>
 <!-- Service 3 -->
 <div class="glass-card p-8 rounded-2xl flex flex-col items-start gap-6">
 <div class="w-14 h-14 rounded-xl bg-tertiary/10 flex items-center justify-center border border-tertiary/20">
 <span class="material-symbols-outlined text-tertiary text-3xl">filter_alt</span>
 </div>
-<h3 class="font-headline-lg text-2xl">Lead &amp; Sales Funnels</h3>
-<p class="font-body-md text-on-surface/70 leading-relaxed">High-conversion landing pages engineered to guide visitors through a seamless journey to purchase.</p>
+<h3 class="font-headline-lg text-xl md:text-2xl">Lead &amp; Sales Funnels</h3>
+<p class="font-body-md text-on-surface/70 leading-relaxed text-sm md:text-base">High-conversion landing pages engineered to guide visitors through a seamless journey to purchase.</p>
 </div>
 </div>
 </section>
 <!-- Risk-Free Guarantee -->
-<section class="reveal max-w-container-max mx-auto px-margin-desktop mb-24">
-<div class="relative overflow-hidden glass-card rounded-3xl p-12 bg-gradient-to-br from-white/5 to-primary/5">
-<div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/20 blur-[120px] rounded-full"></div>
-<div class="absolute -bottom-24 -left-24 w-64 h-64 bg-secondary/10 blur-[100px] rounded-full"></div>
-<div class="relative z-10 md:flex items-center justify-between gap-12">
-<div class="max-w-2xl">
-<h2 class="font-headline-xl text-4xl md:text-5xl mb-6 leading-tight">Our Risk-Free Guarantee: <br/><span class="text-secondary">Design First, Pay Later.</span></h2>
-<p class="font-body-md text-lg text-on-surface/80 mb-8 leading-relaxed">
+<section class="reveal max-w-container-max mx-auto px-6 md:px-margin-desktop mb-24">
+<div class="relative overflow-hidden glass-card rounded-3xl p-8 md:p-12 bg-gradient-to-br from-white/5 to-primary/5">
+<div class="absolute -top-24 -right-24 w-48 md:w-96 h-48 md:h-96 bg-primary/20 blur-[120px] rounded-full"></div>
+<div class="absolute -bottom-24 -left-24 w-32 md:w-64 h-32 md:h-64 bg-secondary/10 blur-[100px] rounded-full"></div>
+<div class="relative z-10 lg:flex items-center justify-between gap-12">
+<div class="max-w-2xl text-center lg:text-left">
+<h2 class="font-headline-xl text-3xl md:text-4xl lg:text-5xl mb-6 leading-tight">Our Risk-Free Guarantee: <br/><span class="text-secondary">Design First, Pay Later.</span></h2>
+<p class="font-body-md text-base md:text-lg text-on-surface/80 mb-8 leading-relaxed">
                         We are so confident in our engineering that we'll provide a high-fidelity custom blueprint for your brand before you commit. No strings attached.
                     </p>
-<button class="bg-primary-container text-white font-bold px-10 py-4 rounded-xl flex items-center gap-3 hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] hover:-translate-y-1 transition-all duration-300 shimmer-effect">
-                        Claim Your Free Blueprint via DM
+<button class="mx-auto lg:mx-0 bg-primary-container text-white font-bold px-8 md:px-10 py-4 rounded-xl flex items-center justify-center gap-3 hover:shadow-[0_0_30px_rgba(37,99,235,0.4)] hover:-translate-y-1 transition-all duration-300 shimmer-effect">
+                        Claim Your Free Blueprint
                         <span class="material-symbols-outlined">send</span>
 </button>
 </div>
@@ -356,66 +394,66 @@
 </div>
 </section>
 <!-- 3-Step Journey -->
-<section class="reveal max-w-container-max mx-auto px-margin-desktop py-stack-xl">
-<div class="text-center mb-16">
-<h2 class="font-headline-xl tracking-tight">Your Path to <span class="premium-gradient-text">Authority</span></h2>
+<section class="reveal max-w-container-max mx-auto px-6 md:px-margin-desktop py-16 md:py-stack-xl">
+<div class="text-center mb-12 md:mb-16">
+<h2 class="font-headline-xl text-3xl md:text-headline-xl tracking-tight">Your Path to <span class="premium-gradient-text">Authority</span></h2>
 </div>
 <div class="flex flex-col md:flex-row justify-between relative gap-8">
 <!-- Journey Line -->
 <div class="absolute top-1/2 left-0 w-full h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent hidden md:block z-0"></div>
 <!-- Step 1 -->
-<div class="relative z-10 flex-1 glass-card p-10 rounded-2xl text-center group">
+<div class="relative z-10 flex-1 glass-card p-8 md:p-10 rounded-2xl text-center group">
 <div class="w-14 h-14 bg-primary text-on-primary rounded-2xl flex items-center justify-center mx-auto mb-6 font-bold text-xl shadow-lg shadow-primary/20 group-hover:scale-110 transition-transform duration-300">01</div>
-<h4 class="font-label-sm uppercase tracking-[0.2em] text-primary mb-4">Consult &amp; Discovery</h4>
-<p class="font-body-md text-on-surface/70">Deep dive into your business goals, target audience, and technical requirements.</p>
+<h4 class="font-label-sm uppercase tracking-[0.2em] text-primary mb-4 text-xs md:text-sm">Consult &amp; Discovery</h4>
+<p class="font-body-md text-on-surface/70 text-sm md:text-base">Deep dive into your business goals, target audience, and technical requirements.</p>
 </div>
 <!-- Step 2 -->
-<div class="relative z-10 flex-1 glass-card p-10 rounded-2xl text-center group">
+<div class="relative z-10 flex-1 glass-card p-8 md:p-10 rounded-2xl text-center group">
 <div class="w-14 h-14 bg-secondary text-on-secondary rounded-2xl flex items-center justify-center mx-auto mb-6 font-bold text-xl shadow-lg shadow-secondary/20 group-hover:scale-110 transition-transform duration-300">02</div>
-<h4 class="font-label-sm uppercase tracking-[0.2em] text-secondary mb-4">Free Custom Design</h4>
-<p class="font-body-md text-on-surface/70">Receive a high-fidelity concept design tailored to your brand identity.</p>
+<h4 class="font-label-sm uppercase tracking-[0.2em] text-secondary mb-4 text-xs md:text-sm">Free Custom Design</h4>
+<p class="font-body-md text-on-surface/70 text-sm md:text-base">Receive a high-fidelity concept design tailored to your brand identity.</p>
 </div>
 <!-- Step 3 -->
-<div class="relative z-10 flex-1 glass-card p-10 rounded-2xl text-center group">
+<div class="relative z-10 flex-1 glass-card p-8 md:p-10 rounded-2xl text-center group">
 <div class="w-14 h-14 bg-tertiary text-on-tertiary rounded-2xl flex items-center justify-center mx-auto mb-6 font-bold text-xl shadow-lg shadow-tertiary/20 group-hover:scale-110 transition-transform duration-300">03</div>
-<h4 class="font-label-sm uppercase tracking-[0.2em] text-tertiary mb-4">Seamless Launch</h4>
-<p class="font-body-md text-on-surface/70">Full-stack development, rigorous testing, and high-performance deployment.</p>
+<h4 class="font-label-sm uppercase tracking-[0.2em] text-tertiary mb-4 text-xs md:text-sm">Seamless Launch</h4>
+<p class="font-body-md text-on-surface/70 text-sm md:text-base">Full-stack development, rigorous testing, and high-performance deployment.</p>
 </div>
 </div>
 </section>
 </main>
 <!-- Enhanced Footer -->
-<footer class="bg-surface-container-lowest/40 backdrop-blur-2xl border-t border-white/5 py-20 w-full mt-24 relative overflow-hidden">
+<footer class="bg-surface-container-lowest/40 backdrop-blur-2xl border-t border-white/5 py-12 md:py-20 w-full mt-24 relative overflow-hidden">
 <div class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/5 opacity-50"></div>
-<div class="max-w-container-max mx-auto px-margin-desktop relative z-10">
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+<div class="max-w-container-max mx-auto px-6 md:px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
 <!-- Col 1: Brand -->
 <div class="space-y-6">
 <div class="flex items-center gap-3">
-<img alt="ProPresence Logo" class="h-10 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCofKXFC2XYXsoubuhyX3qJ13xNzffBBhVSaLwELdQDSxSFoh7n3ID_CLtr5aDIghEtuTEsm0WghTLqv5WI4iZc1XWm6tWQ4DdvyOaMLDds-I1-NZANH8J6pXgIfIkv1BP9fvfh3h4GSTuVmSb6kDsQUIv7C9S12jEckZsneSWCuwQQdPxFeAzvgc_A83jBES6UgJL1ENXKXtsT2IIK2EcYkCs1i4YNWAsn6qFsKh4SdkWNjnR2biMAoy6IUx-hCyIWIve11WQSZLc"/>
-<div class="font-headline-lg text-2xl font-bold tracking-tight text-white">ProPresence<span class="text-primary">.</span></div>
+<img alt="ProPresence Logo" class="h-8 md:h-10 w-auto object-contain brightness-0 invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCofKXFC2XYXsoubuhyX3qJ13xNzffBBhVSaLwELdQDSxSFoh7n3ID_CLtr5aDIghEtuTEsm0WghTLqv5WI4iZc1XWm6tWQ4DdvyOaMLDds-I1-NZANH8J6pXgIfIkv1BP9fvfh3h4GSTuVmSb6kDsQUIv7C9S12jEckZsneSWCuwQQdPxFeAzvgc_A83jBES6UgJL1ENXKXtsT2IIK2EcYkCs1i4YNWAsn6qFsKh4SdkWNjnR2biMAoy6IUx-hCyIWIve11WQSZLc"/>
+<div class="font-headline-lg text-xl md:text-2xl font-bold tracking-tight text-white">ProPresence<span class="text-primary">.</span></div>
 </div>
-<p class="text-on-surface/60 font-body-md leading-relaxed">
+<p class="text-on-surface/60 font-body-md text-sm md:text-base leading-relaxed">
                     Elevating brands through sophisticated engineering and custom digital solutions. We transform complex challenges into seamless experiences.
                 </p>
-<div class="font-label-sm text-primary tracking-widest uppercase">Digital Authority Framework</div>
+<div class="font-label-sm text-primary tracking-widest uppercase text-xs">Digital Authority Framework</div>
 </div>
 <!-- Col 2: Services -->
 <div class="space-y-6">
 <h5 class="font-headline-lg text-lg text-white">Services</h5>
 <ul class="space-y-4">
-<li><a class="text-on-surface/60 hover:text-primary transition-colors font-body-md line-draw" href="#">Custom Development</a></li>
-<li><a class="text-on-surface/60 hover:text-secondary transition-colors font-body-md line-draw" href="#">Digital Revamps</a></li>
-<li><a class="text-on-surface/60 hover:text-tertiary transition-colors font-body-md line-draw" href="#">Sales Funnels</a></li>
+<li><a class="text-on-surface/60 hover:text-primary transition-colors font-body-md text-sm md:text-base line-draw" href="#">Custom Development</a></li>
+<li><a class="text-on-surface/60 hover:text-secondary transition-colors font-body-md text-sm md:text-base line-draw" href="#">Digital Revamps</a></li>
+<li><a class="text-on-surface/60 hover:text-tertiary transition-colors font-body-md text-sm md:text-base line-draw" href="#">Sales Funnels</a></li>
 </ul>
 </div>
 <!-- Col 3: Company -->
 <div class="space-y-6">
 <h5 class="font-headline-lg text-lg text-white">Company</h5>
 <ul class="space-y-4">
-<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md line-draw" href="#">Process</a></li>
-<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md line-draw" href="#">Guarantee</a></li>
-<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md line-draw" href="#">Case Studies</a></li>
+<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md text-sm md:text-base line-draw" href="#">Process</a></li>
+<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md text-sm md:text-base line-draw" href="#">Guarantee</a></li>
+<li><a class="text-on-surface/60 hover:text-white transition-colors font-body-md text-sm md:text-base line-draw" href="#">Case Studies</a></li>
 </ul>
 </div>
 <!-- Col 4: Connect -->
@@ -439,12 +477,12 @@
 </div>
 <!-- Bottom Bar -->
 <div class="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
-<p class="font-label-sm text-on-surface/40 tracking-wider">
+<p class="font-label-sm text-on-surface/40 tracking-wider text-center md:text-left text-xs">
                 © 2024 ProPresence Digital. Sophisticated Engineering.
             </p>
-<div class="flex gap-8">
-<a class="text-on-surface/40 hover:text-white transition-colors font-label-sm tracking-widest uppercase" href="#">Privacy Policy</a>
-<a class="text-on-surface/40 hover:text-white transition-colors font-label-sm tracking-widest uppercase" href="#">Terms of Service</a>
+<div class="flex gap-6 md:gap-8">
+<a class="text-on-surface/40 hover:text-white transition-colors font-label-sm tracking-widest uppercase text-[10px] md:text-xs" href="#">Privacy Policy</a>
+<a class="text-on-surface/40 hover:text-white transition-colors font-label-sm tracking-widest uppercase text-[10px] md:text-xs" href="#">Terms of Service</a>
 </div>
 </div>
 </div>
@@ -459,7 +497,6 @@
                 const children = entry.target.querySelectorAll('.glass-card');
                 children.forEach((child, index) => {
                     child.style.transitionDelay = `${index * 150}ms`;
-                    child.classList.add('active');
                 });
             }
         });
@@ -472,18 +509,41 @@
 
     document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
+    // Mobile Menu Toggle Logic
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    let isMenuOpen = false;
+
+    menuToggle.addEventListener('click', () => {
+        isMenuOpen = !isMenuOpen;
+        if (isMenuOpen) {
+            mobileMenu.classList.remove('hidden-menu');
+            menuToggle.innerHTML = '<span class="material-symbols-outlined text-3xl">close</span>';
+        } else {
+            mobileMenu.classList.add('hidden-menu');
+            menuToggle.innerHTML = '<span class="material-symbols-outlined text-3xl">menu</span>';
+        }
+    });
+
+    // Close menu on resize to desktop
+    window.addEventListener('resize', () => {
+        if (window.innerWidth >= 768 && isMenuOpen) {
+            isMenuOpen = false;
+            mobileMenu.classList.add('hidden-menu');
+            menuToggle.innerHTML = '<span class="material-symbols-outlined text-3xl">menu</span>';
+        }
+    });
+
     // Refined Scroll Interactions for Header
     window.addEventListener('scroll', () => {
         const header = document.querySelector('header');
         if (window.scrollY > 50) {
             header.classList.add('bg-surface/90', 'backdrop-blur-2xl', 'py-3', 'shadow-2xl', 'border-primary/10');
-            header.classList.remove('py-4', 'border-white/5');
+            header.classList.remove('py-4', 'border-white/5', 'md:bg-transparent', 'md:backdrop-blur-none');
         } else {
             header.classList.remove('bg-surface/90', 'backdrop-blur-2xl', 'py-3', 'shadow-2xl', 'border-primary/10');
-            header.classList.add('py-4', 'border-white/5');
+            header.classList.add('py-4', 'border-white/5', 'md:bg-transparent', 'md:backdrop-blur-none');
         }
     });
-
-    // Particle Interaction (Optional: could add actual JS particles here, but using CSS for performance)
 </script>
 </body></html>
