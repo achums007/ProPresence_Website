@@ -2,7 +2,8 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <a class="logo" href="{{ route('home') }}"><span class="logo-mark"></span>ProPresence Digital</a>
+        <!-- <a class="logo" href="{{ route('home') }}"><span class="logo-mark"></span>ProPresence Digital</a> -->
+        <a class="logo" href="{{ route('home') }}"><img src="{{ asset('images/logo.png') }}" style="width:5%" alt="Company Logo" class="h-12 w-auto">ProPresence Digital</a>
         <p style="margin-top:16px;max-width:320px">Enterprise-grade digital growth partner for founders, brands and creators. We engineer measurable presence.</p>
       </div>
       <div>
