@@ -1,6 +1,7 @@
 <header class="site-header">
   <div class="container nav">
     <a href="{{ route('home') }}" class="logo"><span class="logo-mark"></span>ProPresence Digital</a>
+    <a href="{{ route('home') }}" class="logo"><img src="{{ asset('images/logo.png') }}" alt="Company Logo" class="h-12 w-auto">ProPresence Digital</a>
     <nav class="nav-links">
       <a href="{{ route('home') }}" {!! Route::is('home') ? 'style="color:#fff"' : '' !!}>Home</a>
       <a href="{{ route('about') }}" {!! Route::is('about') ? 'style="color:#fff"' : '' !!}>About</a>
