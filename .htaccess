@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Prevent direct access to sensitive files
+    RewriteRule ^\.env$ - [F,L]
+    RewriteRule ^composer\.(json|lock)$ - [F,L]
+    RewriteRule ^package\.(json|lock)$ - [F,L]
+    RewriteRule ^artisan$ - [F,L]
+    RewriteRule ^vite\.config\.js$ - [F,L]
+    RewriteRule ^phpunit\.xml$ - [F,L]
+
+    # Prevent direct access to Laravel directories
+    RewriteRule ^(app|bootstrap|config|database|resources|routes|storage|tests|vendor|old_static)(/|$) - [F,L]
+
+    # Redirect all other traffic to the public directory
+    RewriteRule ^$ public/ [L]
+    RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>
