@@ -18,9 +18,9 @@
   </form>
   <div>
     <h3>Direct channels</h3>
-    <p>Email: hello@propresence.digital<br />WhatsApp: +1 (000) 000-0000<br />Hours: Mon–Fri, 9am–6pm</p>
+    <p>Email: propresencedigital@gmail.com<br />WhatsApp: +91 7907916891<br />Hours: Mon–Fri, 9am–6pm</p>
     <h3 style="margin-top:24px">Offices</h3>
-    <p>Remote-first. Team in New York, London and Bangalore.</p>
+    <p>Remote-first. Team in Kerala, India.</p>
   </div>
 </div></section>
 @endsection
