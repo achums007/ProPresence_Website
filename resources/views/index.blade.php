@@ -4,5 +4,1212 @@
 @section('meta_description', 'Marketing, software, branding and cloud — a complete digital growth partner for startups, SMEs and enterprises.')
 
 @section('content')
-<!--$--><section class="relative overflow-hidden bg-gradient-hero pt-16 md:pt-24 pb-20 md:pb-28" data-tsd-source="/src/routes/index.tsx:40:5"><div class="absolute inset-0 grid-bg opacity-40 pointer-events-none" data-tsd-source="/src/routes/index.tsx:41:7"></div><div class="container-page relative" data-tsd-source="/src/routes/index.tsx:42:7"><div class="grid lg:grid-cols-12 gap-12 items-center" data-tsd-source="/src/routes/index.tsx:43:9"><div class="lg:col-span-7 animate-fade-up" data-tsd-source="/src/routes/index.tsx:44:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 backdrop-blur px-3 py-1 text-xs font-medium" data-tsd-source="/src/routes/index.tsx:45:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles size-3.5 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:46:15"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"></path><path d="M20 2v4"></path><path d="M22 4h-4"></path><circle cx="4" cy="20" r="2"></circle></svg>Full-service digital, software &amp; technology partner</div><h1 class="mt-6 text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.05]" data-tsd-source="/src/routes/index.tsx:49:13">Engineering <span class="text-gradient" data-tsd-source="/src/routes/index.tsx:50:27">Digital Growth</span> for modern businesses.</h1><p class="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed" data-tsd-source="/src/routes/index.tsx:52:13">We help you establish, grow, automate and scale using digital marketing, custom software, AI automation and enterprise technology — from startup branding to global infrastructure.</p><div class="mt-8 flex flex-wrap gap-3" data-tsd-source="/src/routes/index.tsx:56:13"><a data-tsd-source="/src/routes/index.tsx:57:15" href="{{ route('contact') }}" class="btn-primary">Get Free Consultation <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:58:39"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a data-tsd-source="/src/routes/index.tsx:60:15" href="{{ route('services') }}" class="btn-secondary">View Our Services</a></div><div class="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:62:13"><div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:65:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Strategy first</div><div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:65:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Technology driven</div><div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:65:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Transparent pricing</div><div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:65:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Long-term partnership</div></div></div><div class="lg:col-span-5" data-tsd-source="/src/routes/index.tsx:71:11"><div class="relative" data-tsd-source="/src/routes/index.tsx:82:5"><div class="absolute -inset-6 bg-gradient-brand opacity-20 blur-3xl rounded-full" data-tsd-source="/src/routes/index.tsx:83:7"></div><div class="relative glass rounded-2xl p-5 shadow-elegant" data-tsd-source="/src/routes/index.tsx:84:7"><div class="flex items-center gap-1.5 mb-4" data-tsd-source="/src/routes/index.tsx:85:9"><span class="size-2.5 rounded-full bg-red-400/70" data-tsd-source="/src/routes/index.tsx:86:11"></span><span class="size-2.5 rounded-full bg-yellow-400/70" data-tsd-source="/src/routes/index.tsx:87:11"></span><span class="size-2.5 rounded-full bg-green-400/70" data-tsd-source="/src/routes/index.tsx:88:11"></span><div class="ml-3 h-6 flex-1 rounded-md bg-muted/70" data-tsd-source="/src/routes/index.tsx:89:11"></div></div><div class="grid grid-cols-2 gap-3" data-tsd-source="/src/routes/index.tsx:91:9"><div class="rounded-xl border border-border bg-card p-4" data-tsd-source="/src/routes/index.tsx:133:5"><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:134:7">Revenue</div><div class="mt-1 font-display text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:135:7">₹42.8L</div><div class="text-xs text-success font-medium" data-tsd-source="/src/routes/index.tsx:136:7">+28.4%</div></div><div class="rounded-xl border border-border bg-card p-4" data-tsd-source="/src/routes/index.tsx:133:5"><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:134:7">ROAS</div><div class="mt-1 font-display text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:135:7">6.2x</div><div class="text-xs text-success font-medium" data-tsd-source="/src/routes/index.tsx:136:7">+1.1x</div></div><div class="col-span-2 rounded-xl bg-gradient-to-br from-muted to-muted/60 border border-border p-4" data-tsd-source="/src/routes/index.tsx:94:11"><div class="text-xs text-muted-foreground mb-3" data-tsd-source="/src/routes/index.tsx:95:13">Growth · Last 90 days</div><div class="flex items-end gap-1.5 h-24" data-tsd-source="/src/routes/index.tsx:96:13"><div class="flex-1 rounded-t bg-gradient-brand" style="height:38%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:52%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:44%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:62%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:58%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:72%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:68%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:80%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:76%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:92%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:88%" data-tsd-source="/src/routes/index.tsx:98:17"></div><div class="flex-1 rounded-t bg-gradient-brand" style="height:100%" data-tsd-source="/src/routes/index.tsx:98:17"></div></div></div><div class="col-span-2 rounded-xl border border-border p-4 flex items-center justify-between bg-card" data-tsd-source="/src/routes/index.tsx:102:11"><div class="flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:103:13"><div class="size-9 rounded-lg bg-gradient-brand grid place-items-center text-white" data-tsd-source="/src/routes/index.tsx:104:15"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap size-4" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:105:17"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div><div data-tsd-source="/src/routes/index.tsx:107:15"><div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:108:17">Automation live</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:109:17">Meta CAPI · Klaviyo · HubSpot</div></div></div><span class="text-xs font-medium text-success" data-tsd-source="/src/routes/index.tsx:112:13">● Active</span></div></div></div><div class="absolute -bottom-6 -left-6 glass rounded-xl p-3 shadow-elegant animate-float hidden md:block" data-tsd-source="/src/routes/index.tsx:116:7"><div class="flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:117:9"><div class="size-9 rounded-lg bg-success/15 grid place-items-center text-success" data-tsd-source="/src/routes/index.tsx:118:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check size-4" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:119:13"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div><div data-tsd-source="/src/routes/index.tsx:121:11"><div class="text-xs font-semibold" data-tsd-source="/src/routes/index.tsx:122:13">99.98% uptime</div><div class="text-[10px] text-muted-foreground" data-tsd-source="/src/routes/index.tsx:123:13">AWS · Cloudflare</div></div></div></div></div></div></div></div></section><section class="border-y border-border bg-muted/30" data-tsd-source="/src/routes/index.tsx:149:5"><div class="container-page py-10 grid grid-cols-2 md:grid-cols-4 gap-6" data-tsd-source="/src/routes/index.tsx:150:7"><div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11"><div class="font-display text-3xl md:text-4xl font-bold text-gradient" data-tsd-source="/src/routes/index.tsx:153:13">100+</div><div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">Projects Delivered</div></div><div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11"><div class="font-display text-3xl md:text-4xl font-bold text-gradient" data-tsd-source="/src/routes/index.tsx:153:13">50+</div><div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">Brands Served</div></div><div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11"><div class="font-display text-3xl md:text-4xl font-bold text-gradient" data-tsd-source="/src/routes/index.tsx:153:13">24/7</div><div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">Support</div></div><div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11"><div class="font-display text-3xl md:text-4xl font-bold text-gradient" data-tsd-source="/src/routes/index.tsx:153:13">98%</div><div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">Client Satisfaction</div></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>About ProPresence</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Not just a marketing agency. <span class="text-gradient">A digital growth engine.</span></h2><p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed" data-tsd-source="/src/components/site/Section.tsx:35:15">We combine strategy, design, engineering and automation under one roof — so you get faster execution, clearer accountability and results that compound.</p></div><div class="grid md:grid-cols-3 gap-6" data-tsd-source="/src/routes/index.tsx:169:7"><div class="rounded-2xl border border-border bg-card p-7 card-hover" data-tsd-source="/src/routes/index.tsx:175:11"><div class="size-11 rounded-xl bg-gradient-brand grid place-items-center text-white shadow-glow" data-tsd-source="/src/routes/index.tsx:176:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:177:15"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div><h3 class="mt-5 text-xl font-semibold" data-tsd-source="/src/routes/index.tsx:179:13">Our Mission</h3><p class="mt-2 text-sm text-muted-foreground leading-relaxed" data-tsd-source="/src/routes/index.tsx:180:13">Empower every business to compete and win in the digital economy through strategy, technology and creativity.</p></div><div class="rounded-2xl border border-border bg-card p-7 card-hover" data-tsd-source="/src/routes/index.tsx:175:11"><div class="size-11 rounded-xl bg-gradient-brand grid place-items-center text-white shadow-glow" data-tsd-source="/src/routes/index.tsx:176:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:177:15"><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09"></path><path d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path></svg></div><h3 class="mt-5 text-xl font-semibold" data-tsd-source="/src/routes/index.tsx:179:13">Our Vision</h3><p class="mt-2 text-sm text-muted-foreground leading-relaxed" data-tsd-source="/src/routes/index.tsx:180:13">Become the most trusted digital growth partner for ambitious brands — from local SMEs to global enterprises.</p></div><div class="rounded-2xl border border-border bg-card p-7 card-hover" data-tsd-source="/src/routes/index.tsx:175:11"><div class="size-11 rounded-xl bg-gradient-brand grid place-items-center text-white shadow-glow" data-tsd-source="/src/routes/index.tsx:176:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:177:15"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg></div><h3 class="mt-5 text-xl font-semibold" data-tsd-source="/src/routes/index.tsx:179:13">What We Do</h3><p class="mt-2 text-sm text-muted-foreground leading-relaxed" data-tsd-source="/src/routes/index.tsx:180:13">Marketing, branding, web &amp; software development, cloud, CRM, AI automation and enterprise consulting.</p></div></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Core Services</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Five pillars. <span class="text-gradient">One partner.</span></h2><p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed" data-tsd-source="/src/components/site/Section.tsx:35:15">A modular framework that meets you where you are — whether you're launching your first brand or scaling enterprise systems.</p></div><div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-tsd-source="/src/routes/index.tsx:195:7"><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.foundational') }}" class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"><div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span class="font-display text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->01</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Foundational Services</h3><p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Establish your digital presence</p><p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Everything you need to launch a credible, high-converting digital foundation.</p><ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13"><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Corporate Branding</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Logo Design</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Brand Guidelines</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Business Websites</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">WooCommerce Store Setup</li><li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium" data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->5<!-- --> more</li></ul></a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.launch') }}" class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"><div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span class="font-display text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->02</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Launch &amp; Validation</h3><p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Drive first traction &amp; revenue</p><p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Performance marketing, creative and conversion assets that validate your offer.</p><ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13"><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Meta Ads</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Google Ads</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Organic Social Media</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Packaging Design</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Corporate Brochures</li><li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium" data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->3<!-- --> more</li></ul></a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.growth') }}" class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"><div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span class="font-display text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->03</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Growth Accelerator</h3><p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Scale with engineering &amp; automation</p><p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Custom apps, CRM, marketing automation and technical SEO built to compound growth.</p><ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13"><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Custom Laravel Development</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Node.js Applications</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">CRM Integration (HubSpot, Zoho, Salesforce)</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Marketing Automation (Mailchimp, Klaviyo)</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Server-Side Tracking (Meta CAPI)</li><li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium" data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->3<!-- --> more</li></ul></a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.enterprise') }}" class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"><div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span class="font-display text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->04</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Enterprise Solutions</h3><p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Cloud, data &amp; custom software</p><p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Cloud infrastructure, ERP, APIs and mobile apps engineered for scale and reliability.</p><ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13"><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Cloud Infrastructure (AWS, DigitalOcean)</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">API Development</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">ERP Integration</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Analytics Dashboards (Looker Studio)</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Flutter Apps</li><li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium" data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->2<!-- --> more</li></ul></a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.creator') }}" class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"><div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span class="font-display text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->05</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div><h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Creator Economy</h3><p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Grow creators &amp; influencers</p><p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Video, thumbnails, distribution and monetisation systems for creators and brands.</p><ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13"><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">YouTube Editing &amp; SEO</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Thumbnail Design</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Shorts &amp; Reels Editing</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">ManyChat Automation</li><li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border" data-tsd-source="/src/routes/index.tsx:212:17">Media Kits</li><li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium" data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->3<!-- --> more</li></ul></a></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Why ProPresence</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Built for teams that <span class="text-gradient">demand more.</span></h2><p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed" data-tsd-source="/src/components/site/Section.tsx:35:15">A rare combination of strategic thinking, creative craft and deep engineering — under one roof.</p></div><div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4" data-tsd-source="/src/routes/index.tsx:246:7"><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="6"></circle><circle cx="12" cy="12" r="2"></circle></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Strategy First</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Every engagement starts with clarity on business goals, not deliverables.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M12 20v2"></path><path d="M12 2v2"></path><path d="M17 20v2"></path><path d="M17 2v2"></path><path d="M2 12h2"></path><path d="M2 17h2"></path><path d="M2 7h2"></path><path d="M20 12h2"></path><path d="M20 17h2"></path><path d="M20 7h2"></path><path d="M7 20v2"></path><path d="M7 2v2"></path><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="8" y="8" width="8" height="8" rx="1"></rect></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Technology Driven</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Engineering-grade thinking applied to marketing, ops and automation.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-line size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="m19 9-5 5-4-4-3 3"></path></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Performance Marketing</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Measurable, attributable growth backed by server-side tracking.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Custom Solutions</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">No templates. Built for your workflow, brand and audience.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Scalable Infrastructure</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">AWS, DigitalOcean, Cloudflare — engineered for uptime and scale.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Transparent Pricing</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Clear scope, clear pricing, clear accountability. Always.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><path d="M16 3.128a4 4 0 0 1 0 7.744"></path><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><circle cx="9" cy="7" r="4"></circle></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Long-Term Partnership</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">We stay invested — most clients work with us for 2+ years.</p></div><div class="rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:248:11"><div class="size-10 rounded-lg bg-muted grid place-items-center text-brand" data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase size-5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg></div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Business Focused</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">We speak revenue, retention and margin — not just impressions.</p></div></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Our Process</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">A proven <span class="text-gradient">five-step</span> engagement.</h2></div><div class="relative grid gap-5 md:grid-cols-5" data-tsd-source="/src/routes/index.tsx:274:7"><div class="hidden md:block absolute top-6 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-brand/50 to-transparent" data-tsd-source="/src/routes/index.tsx:275:9"></div><div class="relative rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:277:11"><div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow" data-tsd-source="/src/routes/index.tsx:278:13">1</div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Discovery</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Understand your business, goals, customers and constraints.</p></div><div class="relative rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:277:11"><div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow" data-tsd-source="/src/routes/index.tsx:278:13">2</div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Planning</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Roadmap, scope, KPIs and success metrics defined together.</p></div><div class="relative rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:277:11"><div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow" data-tsd-source="/src/routes/index.tsx:278:13">3</div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Design</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Brand, UX and creative systems designed for your audience.</p></div><div class="relative rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:277:11"><div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow" data-tsd-source="/src/routes/index.tsx:278:13">4</div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Development</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Engineering, integrations, tracking and quality assurance.</p></div><div class="relative rounded-2xl border border-border bg-card p-6 card-hover" data-tsd-source="/src/routes/index.tsx:277:11"><div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow" data-tsd-source="/src/routes/index.tsx:278:13">5</div><h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Launch &amp; Growth</h3><p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Go-live, iteration, optimisation and ongoing partnership.</p></div></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Industries We Serve</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Deep expertise across <span class="text-gradient">every vertical.</span></h2></div><div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3" data-tsd-source="/src/routes/index.tsx:310:7"><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-stethoscope size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M11 2v2"></path><path d="M5 2v2"></path><path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"></path><path d="M8 15a6 6 0 0 0 12 0v-3"></path><circle cx="20" cy="10" r="2"></circle></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Healthcare</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path><path d="M22 10v6"></path><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Education</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Retail</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-utensils-crossed size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"></path><path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"></path><path d="m2.1 21.8 6.4-6.3"></path><path d="m19 5-7 7"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Restaurants</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-factory size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M12 16h.01"></path><path d="M16 16h.01"></path><path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z"></path><path d="M8 16h.01"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Manufacturing</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Real Estate</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Professional Services</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Creators</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M16 10a4 4 0 0 1-8 0"></path><path d="M3.103 6.034h17.794"></path><path d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">E-commerce</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Construction</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hotel size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M10 22v-6.57"></path><path d="M12 11h.01"></path><path d="M12 7h.01"></path><path d="M14 15.43V22"></path><path d="M15 16a5 5 0 0 0-6 0"></path><path d="M16 11h.01"></path><path d="M16 7h.01"></path><path d="M8 11h.01"></path><path d="M8 7h.01"></path><rect x="4" y="2" width="16" height="20" rx="2"></rect></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Hospitality</span></div><div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover" data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-landmark size-6 text-brand" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13"><path d="M10 18v-7"></path><path d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z"></path><path d="M14 18v-7"></path><path d="M18 18v-7"></path><path d="M3 22h18"></path><path d="M6 18v-7"></path></svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Finance</span></div></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Technology Stack</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Best-in-class <span class="text-gradient">tools &amp; platforms.</span></h2><p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed" data-tsd-source="/src/components/site/Section.tsx:35:15">We're platform-agnostic and pick the right tool for your problem — not the one we're locked into.</p></div><div class="space-y-6" data-tsd-source="/src/routes/index.tsx:336:7"><div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11"><div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4" data-tsd-source="/src/routes/index.tsx:339:13">Development</div><div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">WordPress</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Laravel</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">CodeIgniter</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Node.js</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">React</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Flutter</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">React Native</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">WooCommerce</span></div></div><div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11"><div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4" data-tsd-source="/src/routes/index.tsx:339:13">Marketing</div><div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Meta Ads</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Google Ads</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Google Analytics</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Tag Manager</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Looker Studio</span></div></div><div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11"><div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4" data-tsd-source="/src/routes/index.tsx:339:13">CRM &amp; Automation</div><div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">HubSpot</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Zoho</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Salesforce</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Mailchimp</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Klaviyo</span></div></div><div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11"><div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4" data-tsd-source="/src/routes/index.tsx:339:13">Cloud &amp; Payments</div><div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">AWS</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">DigitalOcean</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Cloudflare</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Stripe</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Razorpay</span></div></div><div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11"><div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4" data-tsd-source="/src/routes/index.tsx:339:13">Design</div><div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Figma</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Canva</span><span class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:342:17">Adobe Creative Cloud</span></div></div></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Testimonials</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Trusted by leaders across <span class="text-gradient">industries.</span></h2></div><div class="grid md:grid-cols-3 gap-6" data-tsd-source="/src/routes/index.tsx:365:7"><figure class="rounded-2xl border border-border bg-card p-7 card-hover flex flex-col" data-tsd-source="/src/routes/index.tsx:367:11"><div class="flex gap-0.5 text-brand-glow" data-tsd-source="/src/routes/index.tsx:368:13"><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span></div><blockquote class="mt-4 text-sm leading-relaxed" data-tsd-source="/src/routes/index.tsx:371:13">"<!-- -->ProPresence rebuilt our entire commerce stack and doubled our online revenue in 6 months. Rare combination of design and engineering.<!-- -->"</blockquote><figcaption class="mt-6 pt-5 border-t border-border flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:372:13"><div class="size-10 rounded-full bg-gradient-brand grid place-items-center text-white font-semibold" data-tsd-source="/src/routes/index.tsx:373:15">A</div><div data-tsd-source="/src/routes/index.tsx:376:15"><div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:377:17">Arjun Menon</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:378:17">CEO, Verdant Retail</div></div><span class="ml-auto text-[10px] px-2 py-1 rounded-md bg-muted border border-border text-muted-foreground" data-tsd-source="/src/routes/index.tsx:380:15">E-commerce</span></figcaption></figure><figure class="rounded-2xl border border-border bg-card p-7 card-hover flex flex-col" data-tsd-source="/src/routes/index.tsx:367:11"><div class="flex gap-0.5 text-brand-glow" data-tsd-source="/src/routes/index.tsx:368:13"><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span></div><blockquote class="mt-4 text-sm leading-relaxed" data-tsd-source="/src/routes/index.tsx:371:13">"<!-- -->They understood the healthcare vertical from day one. The booking platform they built is now central to our operations.<!-- -->"</blockquote><figcaption class="mt-6 pt-5 border-t border-border flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:372:13"><div class="size-10 rounded-full bg-gradient-brand grid place-items-center text-white font-semibold" data-tsd-source="/src/routes/index.tsx:373:15">D</div><div data-tsd-source="/src/routes/index.tsx:376:15"><div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:377:17">Dr. Sarah Thomas</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:378:17">Founder, Clarity Health</div></div><span class="ml-auto text-[10px] px-2 py-1 rounded-md bg-muted border border-border text-muted-foreground" data-tsd-source="/src/routes/index.tsx:380:15">Healthcare</span></figcaption></figure><figure class="rounded-2xl border border-border bg-card p-7 card-hover flex flex-col" data-tsd-source="/src/routes/index.tsx:367:11"><div class="flex gap-0.5 text-brand-glow" data-tsd-source="/src/routes/index.tsx:368:13"><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span><span data-tsd-source="/src/routes/index.tsx:369:57">★</span></div><blockquote class="mt-4 text-sm leading-relaxed" data-tsd-source="/src/routes/index.tsx:371:13">"<!-- -->Attribution was a mess before ProPresence. Server-side tracking + HubSpot automation gave us a real revenue view.<!-- -->"</blockquote><figcaption class="mt-6 pt-5 border-t border-border flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:372:13"><div class="size-10 rounded-full bg-gradient-brand grid place-items-center text-white font-semibold" data-tsd-source="/src/routes/index.tsx:373:15">R</div><div data-tsd-source="/src/routes/index.tsx:376:15"><div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:377:17">Rahul Kapoor</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:378:17">CMO, Northline SaaS</div></div><span class="ml-auto text-[10px] px-2 py-1 rounded-md bg-muted border border-border text-muted-foreground" data-tsd-source="/src/routes/index.tsx:380:15">Technology</span></figcaption></figure></div></div></section><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11"><div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto" data-tsd-source="/src/components/site/Section.tsx:24:15"><span class="size-1.5 rounded-full bg-gradient-brand" data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Pricing</div><h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/components/site/Section.tsx:30:15">Transparent plans, <span class="text-gradient">custom quotes.</span></h2><p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed" data-tsd-source="/src/components/site/Section.tsx:35:15">Every engagement is scoped to your business. Book a consultation and we'll build a proposal that fits.</p></div><div class="grid md:grid-cols-3 gap-6" data-tsd-source="/src/routes/index.tsx:401:7"><div class="rounded-2xl border p-7 card-hover relative border-border bg-card" data-tsd-source="/src/routes/index.tsx:403:11"><h3 class="text-xl font-bold" data-tsd-source="/src/routes/index.tsx:409:13">Startup</h3><p class="mt-1 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:410:13">For founders establishing a brand and getting to market.</p><div class="mt-6 font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:411:13">Custom</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:412:13">Tailored to your scope</div><ul class="mt-6 space-y-2.5 text-sm" data-tsd-source="/src/routes/index.tsx:413:13"><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Brand identity</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Business website</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Local SEO &amp; GBP</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Basic ads setup</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Email support</li></ul><a data-tsd-source="/src/routes/index.tsx:420:13" href="{{ route('contact') }}" class="mt-7 w-full btn-secondary">Book Consultation</a></div><div class="rounded-2xl border p-7 card-hover relative border-brand bg-card shadow-elegant" data-tsd-source="/src/routes/index.tsx:403:11"><div class="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-semibold px-3 py-1 rounded-full bg-gradient-brand text-white shadow-glow" data-tsd-source="/src/routes/index.tsx:405:15">Most popular</div><h3 class="text-xl font-bold" data-tsd-source="/src/routes/index.tsx:409:13">Growth</h3><p class="mt-1 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:410:13">For SMEs scaling revenue with paid, CRM and automation.</p><div class="mt-6 font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:411:13">Custom</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:412:13">Tailored to your scope</div><ul class="mt-6 space-y-2.5 text-sm" data-tsd-source="/src/routes/index.tsx:413:13"><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Everything in Startup</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Performance marketing</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->CRM &amp; automation</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Technical SEO</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Priority support</li></ul><a data-tsd-source="/src/routes/index.tsx:420:13" href="{{ route('contact') }}" class="mt-7 w-full btn-primary">Book Consultation</a></div><div class="rounded-2xl border p-7 card-hover relative border-border bg-card" data-tsd-source="/src/routes/index.tsx:403:11"><h3 class="text-xl font-bold" data-tsd-source="/src/routes/index.tsx:409:13">Enterprise</h3><p class="mt-1 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:410:13">For established teams with complex systems and scale.</p><div class="mt-6 font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:411:13">Custom</div><div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:412:13">Tailored to your scope</div><ul class="mt-6 space-y-2.5 text-sm" data-tsd-source="/src/routes/index.tsx:413:13"><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Custom software</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Cloud infrastructure</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->APIs &amp; ERP integration</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Analytics dashboards</li><li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:416:19"><path d="M20 6 9 17l-5-5"></path></svg> <!-- -->Dedicated team</li></ul><a data-tsd-source="/src/routes/index.tsx:420:13" href="{{ route('contact') }}" class="mt-7 w-full btn-secondary">Book Consultation</a></div></div></div></section><section class="pb-24" data-tsd-source="/src/routes/index.tsx:432:5"><div class="container-page" data-tsd-source="/src/routes/index.tsx:433:7"><div class="relative overflow-hidden rounded-3xl border border-border p-10 md:p-16 bg-[oklch(0.19_0.04_264)] text-white" data-tsd-source="/src/routes/index.tsx:434:9"><div class="absolute inset-0 grid-bg opacity-20" data-tsd-source="/src/routes/index.tsx:435:11"></div><div class="absolute -right-24 -top-24 size-96 rounded-full bg-gradient-brand opacity-30 blur-3xl" data-tsd-source="/src/routes/index.tsx:436:11"></div><div class="relative max-w-2xl" data-tsd-source="/src/routes/index.tsx:437:11"><h2 class="font-display text-3xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/routes/index.tsx:438:13">Ready to engineer your <span class="text-gradient" data-tsd-source="/src/routes/index.tsx:439:38">next chapter?</span></h2><p class="mt-4 text-white/70 text-lg" data-tsd-source="/src/routes/index.tsx:441:13">Book a free 30-minute consultation. We'll audit your current setup and share a tailored roadmap — no obligation.</p><div class="mt-8 flex flex-wrap gap-3" data-tsd-source="/src/routes/index.tsx:445:13"><a data-tsd-source="/src/routes/index.tsx:446:15" href="{{ route('contact') }}" class="btn-primary">Book a Free Consultation <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4" aria-hidden="true" data-tsd-source="/src/routes/index.tsx:447:42"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a><a data-tsd-source="/src/routes/index.tsx:449:15" href="{{ route('services') }}" class="btn-secondary bg-white/10 border-white/20 text-white hover:bg-white/15">Explore Services</a></div></div></div></div></section><!--/$-->
+    <!--$-->
+    <section class="relative overflow-hidden bg-gradient-hero pt-16 md:pt-24 pb-20 md:pb-28"
+        data-tsd-source="/src/routes/index.tsx:40:5">
+        <div class="absolute inset-0 grid-bg opacity-40 pointer-events-none" data-tsd-source="/src/routes/index.tsx:41:7">
+        </div>
+        <div class="container-page relative" data-tsd-source="/src/routes/index.tsx:42:7">
+            <div class="grid lg:grid-cols-12 gap-12 items-center" data-tsd-source="/src/routes/index.tsx:43:9">
+                <div class="lg:col-span-7 animate-fade-up" data-tsd-source="/src/routes/index.tsx:44:11">
+                    <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card/70 backdrop-blur px-3 py-1 text-xs font-medium"
+                        data-tsd-source="/src/routes/index.tsx:45:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-sparkles size-3.5 text-brand" aria-hidden="true"
+                            data-tsd-source="/src/routes/index.tsx:46:15">
+                            <path
+                                d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+                            </path>
+                            <path d="M20 2v4"></path>
+                            <path d="M22 4h-4"></path>
+                            <circle cx="4" cy="20" r="2"></circle>
+                        </svg>Full-service digital, software &amp; technology partner</div>
+                    <h1 class="mt-6 text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.05]"
+                        data-tsd-source="/src/routes/index.tsx:49:13">Engineering <span class="text-gradient"
+                            data-tsd-source="/src/routes/index.tsx:50:27">Digital Growth</span> for modern businesses.</h1>
+                    <p class="mt-6 text-lg text-muted-foreground max-w-2xl leading-relaxed"
+                        data-tsd-source="/src/routes/index.tsx:52:13">We help you establish, grow, automate and scale using
+                        digital marketing, custom software, AI automation and enterprise technology — from startup branding
+                        to global infrastructure.</p>
+                    <div class="mt-8 flex flex-wrap gap-3" data-tsd-source="/src/routes/index.tsx:56:13"><a
+                            data-tsd-source="/src/routes/index.tsx:57:15" href="{{ route('contact') }}"
+                            class="btn-primary">Get Free Consultation <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4"
+                                aria-hidden="true" data-tsd-source="/src/routes/index.tsx:58:39">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></a><a data-tsd-source="/src/routes/index.tsx:60:15" href="{{ route('services') }}"
+                            class="btn-secondary">View Our Services</a></div>
+                    <div class="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-sm text-muted-foreground"
+                        data-tsd-source="/src/routes/index.tsx:62:13">
+                        <div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:65:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Strategy first</div>
+                        <div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:65:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Technology driven</div>
+                        <div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:65:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Transparent pricing</div>
+                        <div class="flex items-center gap-2" data-tsd-source="/src/routes/index.tsx:64:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:65:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Long-term partnership</div>
+                    </div>
+                </div>
+                <div class="lg:col-span-5" data-tsd-source="/src/routes/index.tsx:71:11">
+                    <div class="relative" data-tsd-source="/src/routes/index.tsx:82:5">
+                        <div class="absolute -inset-6 bg-gradient-brand opacity-20 blur-3xl rounded-full"
+                            data-tsd-source="/src/routes/index.tsx:83:7"></div>
+                        <div class="relative glass rounded-2xl p-5 shadow-elegant"
+                            data-tsd-source="/src/routes/index.tsx:84:7">
+                            <div class="flex items-center gap-1.5 mb-4" data-tsd-source="/src/routes/index.tsx:85:9"><span
+                                    class="size-2.5 rounded-full bg-red-400/70"
+                                    data-tsd-source="/src/routes/index.tsx:86:11"></span><span
+                                    class="size-2.5 rounded-full bg-yellow-400/70"
+                                    data-tsd-source="/src/routes/index.tsx:87:11"></span><span
+                                    class="size-2.5 rounded-full bg-green-400/70"
+                                    data-tsd-source="/src/routes/index.tsx:88:11"></span>
+                                <div class="ml-3 h-6 flex-1 rounded-md bg-muted/70"
+                                    data-tsd-source="/src/routes/index.tsx:89:11"></div>
+                            </div>
+                            <div class="grid grid-cols-2 gap-3" data-tsd-source="/src/routes/index.tsx:91:9">
+                                <div class="rounded-xl border border-border bg-card p-4"
+                                    data-tsd-source="/src/routes/index.tsx:133:5">
+                                    <div class="text-xs text-muted-foreground"
+                                        data-tsd-source="/src/routes/index.tsx:134:7">Revenue</div>
+                                    <div class="mt-1 font-display text-2xl font-bold"
+                                        data-tsd-source="/src/routes/index.tsx:135:7">₹42.8L</div>
+                                    <div class="text-xs text-success font-medium"
+                                        data-tsd-source="/src/routes/index.tsx:136:7">+28.4%</div>
+                                </div>
+                                <div class="rounded-xl border border-border bg-card p-4"
+                                    data-tsd-source="/src/routes/index.tsx:133:5">
+                                    <div class="text-xs text-muted-foreground"
+                                        data-tsd-source="/src/routes/index.tsx:134:7">ROAS</div>
+                                    <div class="mt-1 font-display text-2xl font-bold"
+                                        data-tsd-source="/src/routes/index.tsx:135:7">6.2x</div>
+                                    <div class="text-xs text-success font-medium"
+                                        data-tsd-source="/src/routes/index.tsx:136:7">+1.1x</div>
+                                </div>
+                                <div class="col-span-2 rounded-xl bg-gradient-to-br from-muted to-muted/60 border border-border p-4"
+                                    data-tsd-source="/src/routes/index.tsx:94:11">
+                                    <div class="text-xs text-muted-foreground mb-3"
+                                        data-tsd-source="/src/routes/index.tsx:95:13">Growth · Last 90 days</div>
+                                    <div class="flex items-end gap-1.5 h-24" data-tsd-source="/src/routes/index.tsx:96:13">
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:38%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:52%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:44%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:62%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:58%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:72%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:68%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:80%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:76%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:92%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:88%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                        <div class="flex-1 rounded-t bg-gradient-brand" style="height:100%"
+                                            data-tsd-source="/src/routes/index.tsx:98:17"></div>
+                                    </div>
+                                </div>
+                                <div class="col-span-2 rounded-xl border border-border p-4 flex items-center justify-between bg-card"
+                                    data-tsd-source="/src/routes/index.tsx:102:11">
+                                    <div class="flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:103:13">
+                                        <div class="size-9 rounded-lg bg-gradient-brand grid place-items-center text-white"
+                                            data-tsd-source="/src/routes/index.tsx:104:15"><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                class="lucide lucide-zap size-4" aria-hidden="true"
+                                                data-tsd-source="/src/routes/index.tsx:105:17">
+                                                <path
+                                                    d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                                                </path>
+                                            </svg></div>
+                                        <div data-tsd-source="/src/routes/index.tsx:107:15">
+                                            <div class="text-sm font-semibold"
+                                                data-tsd-source="/src/routes/index.tsx:108:17">Automation live</div>
+                                            <div class="text-xs text-muted-foreground"
+                                                data-tsd-source="/src/routes/index.tsx:109:17">Meta CAPI · Klaviyo · HubSpot
+                                            </div>
+                                        </div>
+                                    </div><span class="text-xs font-medium text-success"
+                                        data-tsd-source="/src/routes/index.tsx:112:13">● Active</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute -bottom-6 -left-6 glass rounded-xl p-3 shadow-elegant animate-float hidden md:block"
+                            data-tsd-source="/src/routes/index.tsx:116:7">
+                            <div class="flex items-center gap-3" data-tsd-source="/src/routes/index.tsx:117:9">
+                                <div class="size-9 rounded-lg bg-success/15 grid place-items-center text-success"
+                                    data-tsd-source="/src/routes/index.tsx:118:11"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide lucide-shield-check size-4" aria-hidden="true"
+                                        data-tsd-source="/src/routes/index.tsx:119:13">
+                                        <path
+                                            d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                                        </path>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg></div>
+                                <div data-tsd-source="/src/routes/index.tsx:121:11">
+                                    <div class="text-xs font-semibold" data-tsd-source="/src/routes/index.tsx:122:13">99.98%
+                                        uptime</div>
+                                    <div class="text-[10px] text-muted-foreground"
+                                        data-tsd-source="/src/routes/index.tsx:123:13">AWS · Cloudflare</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="border-y border-border bg-muted/30" data-tsd-source="/src/routes/index.tsx:149:5">
+        <div class="container-page py-10 grid grid-cols-2 md:grid-cols-4 gap-6"
+            data-tsd-source="/src/routes/index.tsx:150:7">
+            <div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11">
+                <div class="font-display text-3xl md:text-4xl font-bold text-gradient"
+                    data-tsd-source="/src/routes/index.tsx:153:13">100+</div>
+                <div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">
+                    Projects Delivered</div>
+            </div>
+            <div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11">
+                <div class="font-display text-3xl md:text-4xl font-bold text-gradient"
+                    data-tsd-source="/src/routes/index.tsx:153:13">50+</div>
+                <div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">
+                    Brands Served</div>
+            </div>
+            <div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11">
+                <div class="font-display text-3xl md:text-4xl font-bold text-gradient"
+                    data-tsd-source="/src/routes/index.tsx:153:13">24/7</div>
+                <div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">
+                    Support</div>
+            </div>
+            <div class="text-center" data-tsd-source="/src/routes/index.tsx:152:11">
+                <div class="font-display text-3xl md:text-4xl font-bold text-gradient"
+                    data-tsd-source="/src/routes/index.tsx:153:13">98%</div>
+                <div class="mt-1 text-xs md:text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:154:13">
+                    Client Satisfaction</div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>About ProPresence</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Not just a marketing agency. <span
+                        class="text-gradient">A digital growth engine.</span></h2>
+                <p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed"
+                    data-tsd-source="/src/components/site/Section.tsx:35:15">We combine strategy, design, engineering and
+                    automation under one roof — so you get faster execution, clearer accountability and results that
+                    compound.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6" data-tsd-source="/src/routes/index.tsx:169:7">
+                <div class="rounded-2xl border border-border bg-card p-7 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:175:11">
+                    <div class="size-11 rounded-xl bg-gradient-brand grid place-items-center text-white shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:176:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:177:15">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg></div>
+                    <h3 class="mt-5 text-xl font-semibold" data-tsd-source="/src/routes/index.tsx:179:13">Our Mission</h3>
+                    <p class="mt-2 text-sm text-muted-foreground leading-relaxed"
+                        data-tsd-source="/src/routes/index.tsx:180:13">Empower every business to compete and win in the
+                        digital economy through strategy, technology and creativity.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-7 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:175:11">
+                    <div class="size-11 rounded-xl bg-gradient-brand grid place-items-center text-white shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:176:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:177:15">
+                            <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path>
+                            <path
+                                d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09">
+                            </path>
+                            <path
+                                d="M9 12a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.4 22.4 0 0 1-4 2z">
+                            </path>
+                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 .05 5 .05"></path>
+                        </svg></div>
+                    <h3 class="mt-5 text-xl font-semibold" data-tsd-source="/src/routes/index.tsx:179:13">Our Vision</h3>
+                    <p class="mt-2 text-sm text-muted-foreground leading-relaxed"
+                        data-tsd-source="/src/routes/index.tsx:180:13">Become the most trusted digital growth partner for
+                        ambitious brands — from local SMEs to global enterprises.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-7 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:175:11">
+                    <div class="size-11 rounded-xl bg-gradient-brand grid place-items-center text-white shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:176:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:177:15">
+                            <path
+                                d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+                            </path>
+                            <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+                            <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+                        </svg></div>
+                    <h3 class="mt-5 text-xl font-semibold" data-tsd-source="/src/routes/index.tsx:179:13">What We Do</h3>
+                    <p class="mt-2 text-sm text-muted-foreground leading-relaxed"
+                        data-tsd-source="/src/routes/index.tsx:180:13">Marketing, branding, web &amp; software development,
+                        cloud, CRM, AI automation and enterprise consulting.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Core Services</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Five pillars. <span class="text-gradient">One
+                        partner.</span></h2>
+                <p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed"
+                    data-tsd-source="/src/components/site/Section.tsx:35:15">A modular framework that meets you where you
+                    are — whether you're launching your first brand or scaling enterprise systems.</p>
+            </div>
+            <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-tsd-source="/src/routes/index.tsx:195:7"><a
+                    data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.foundational') }}"
+                    class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col">
+                    <div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span
+                            class="font-display text-sm text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->01</span><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg></div>
+                    <h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Foundational Services
+                    </h3>
+                    <p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Establish
+                        your digital presence</p>
+                    <p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Everything
+                        you need to launch a credible, high-converting digital foundation.</p>
+                    <ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13">
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Corporate Branding</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Logo Design</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Brand Guidelines</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Business Websites</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">WooCommerce Store Setup</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium"
+                            data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->5<!-- --> more</li>
+                    </ul>
+                </a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.launch') }}"
+                    class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col">
+                    <div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span
+                            class="font-display text-sm text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->02</span><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg></div>
+                    <h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Launch &amp;
+                        Validation</h3>
+                    <p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Drive
+                        first traction &amp; revenue</p>
+                    <p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Performance
+                        marketing, creative and conversion assets that validate your offer.</p>
+                    <ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13">
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Meta Ads</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Google Ads</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Organic Social Media</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Packaging Design</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Corporate Brochures</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium"
+                            data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->3<!-- --> more</li>
+                    </ul>
+                </a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.growth') }}"
+                    class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col">
+                    <div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span
+                            class="font-display text-sm text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->03</span><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg></div>
+                    <h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Growth Accelerator
+                    </h3>
+                    <p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Scale with
+                        engineering &amp; automation</p>
+                    <p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Custom
+                        apps, CRM, marketing automation and technical SEO built to compound growth.</p>
+                    <ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13">
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Custom Laravel Development</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Node.js Applications</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">CRM Integration (HubSpot, Zoho, Salesforce)</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Marketing Automation (Mailchimp, Klaviyo)</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Server-Side Tracking (Meta CAPI)</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium"
+                            data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->3<!-- --> more</li>
+                    </ul>
+                </a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.enterprise') }}"
+                    class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col">
+                    <div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span
+                            class="font-display text-sm text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->04</span><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg></div>
+                    <h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Enterprise Solutions
+                    </h3>
+                    <p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Cloud,
+                        data &amp; custom software</p>
+                    <p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Cloud
+                        infrastructure, ERP, APIs and mobile apps engineered for scale and reliability.</p>
+                    <ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13">
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Cloud Infrastructure (AWS, DigitalOcean)</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">API Development</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">ERP Integration</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Analytics Dashboards (Looker Studio)</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Flutter Apps</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium"
+                            data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->2<!-- --> more</li>
+                    </ul>
+                </a><a data-tsd-source="/src/routes/index.tsx:197:11" href="{{ route('services.creator') }}"
+                    class="group rounded-2xl border border-border bg-card p-7 card-hover flex flex-col">
+                    <div class="flex items-center justify-between" data-tsd-source="/src/routes/index.tsx:203:13"><span
+                            class="font-display text-sm text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:204:15">PILLAR <!-- -->05</span><svg
+                            xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-arrow-right size-4 text-muted-foreground group-hover:text-brand group-hover:translate-x-1 transition-all"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:205:15">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg></div>
+                    <h3 class="mt-3 text-2xl font-bold" data-tsd-source="/src/routes/index.tsx:207:13">Creator Economy</h3>
+                    <p class="mt-1 text-sm text-brand font-medium" data-tsd-source="/src/routes/index.tsx:208:13">Grow
+                        creators &amp; influencers</p>
+                    <p class="mt-3 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:209:13">Video,
+                        thumbnails, distribution and monetisation systems for creators and brands.</p>
+                    <ul class="mt-5 flex flex-wrap gap-1.5" data-tsd-source="/src/routes/index.tsx:210:13">
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">YouTube Editing &amp; SEO</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Thumbnail Design</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Shorts &amp; Reels Editing</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">ManyChat Automation</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md bg-muted text-muted-foreground border border-border"
+                            data-tsd-source="/src/routes/index.tsx:212:17">Media Kits</li>
+                        <li class="text-[11px] px-2 py-1 rounded-md text-brand font-medium"
+                            data-tsd-source="/src/routes/index.tsx:217:17">+<!-- -->3<!-- --> more</li>
+                    </ul>
+                </a></div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Why ProPresence</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Built for teams that <span
+                        class="text-gradient">demand more.</span></h2>
+                <p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed"
+                    data-tsd-source="/src/components/site/Section.tsx:35:15">A rare combination of strategic thinking,
+                    creative craft and deep engineering — under one roof.</p>
+            </div>
+            <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4" data-tsd-source="/src/routes/index.tsx:246:7">
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-target size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Strategy First</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Every
+                        engagement starts with clarity on business goals, not deliverables.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path d="M12 20v2"></path>
+                            <path d="M12 2v2"></path>
+                            <path d="M17 20v2"></path>
+                            <path d="M17 2v2"></path>
+                            <path d="M2 12h2"></path>
+                            <path d="M2 17h2"></path>
+                            <path d="M2 7h2"></path>
+                            <path d="M20 12h2"></path>
+                            <path d="M20 17h2"></path>
+                            <path d="M20 7h2"></path>
+                            <path d="M7 20v2"></path>
+                            <path d="M7 2v2"></path>
+                            <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                            <rect x="8" y="8" width="8" height="8" rx="1"></rect>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Technology Driven</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">
+                        Engineering-grade thinking applied to marketing, ops and automation.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-line size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path d="M3 3v16a2 2 0 0 0 2 2h16"></path>
+                            <path d="m19 9-5 5-4-4-3 3"></path>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Performance Marketing</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Measurable,
+                        attributable growth backed by server-side tracking.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path
+                                d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+                            </path>
+                            <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+                            <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Custom Solutions</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">No
+                        templates. Built for your workflow, brand and audience.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Scalable Infrastructure
+                    </h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">AWS,
+                        DigitalOcean, Cloudflare — engineered for uptime and scale.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path
+                                d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z">
+                            </path>
+                            <path d="m9 12 2 2 4-4"></path>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Transparent Pricing</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">Clear
+                        scope, clear pricing, clear accountability. Always.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                            <path d="M16 3.128a4 4 0 0 1 0 7.744"></path>
+                            <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Long-Term Partnership</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">We stay
+                        invested — most clients work with us for 2+ years.</p>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:248:11">
+                    <div class="size-10 rounded-lg bg-muted grid place-items-center text-brand"
+                        data-tsd-source="/src/routes/index.tsx:249:13"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase size-5"
+                            aria-hidden="true" data-tsd-source="/src/routes/index.tsx:250:15">
+                            <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                        </svg></div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:252:13">Business Focused</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:253:13">We speak
+                        revenue, retention and margin — not just impressions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Our Process</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">A proven <span
+                        class="text-gradient">five-step</span> engagement.</h2>
+            </div>
+            <div class="relative grid gap-5 md:grid-cols-5" data-tsd-source="/src/routes/index.tsx:274:7">
+                <div class="hidden md:block absolute top-6 left-[10%] right-[10%] h-px bg-gradient-to-r from-transparent via-brand/50 to-transparent"
+                    data-tsd-source="/src/routes/index.tsx:275:9"></div>
+                <div class="relative rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:277:11">
+                    <div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:278:13">1</div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Discovery</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Understand
+                        your business, goals, customers and constraints.</p>
+                </div>
+                <div class="relative rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:277:11">
+                    <div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:278:13">2</div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Planning</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Roadmap,
+                        scope, KPIs and success metrics defined together.</p>
+                </div>
+                <div class="relative rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:277:11">
+                    <div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:278:13">3</div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Design</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Brand, UX
+                        and creative systems designed for your audience.</p>
+                </div>
+                <div class="relative rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:277:11">
+                    <div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:278:13">4</div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Development</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">
+                        Engineering, integrations, tracking and quality assurance.</p>
+                </div>
+                <div class="relative rounded-2xl border border-border bg-card p-6 card-hover"
+                    data-tsd-source="/src/routes/index.tsx:277:11">
+                    <div class="size-12 rounded-xl bg-gradient-brand grid place-items-center text-white font-display font-bold text-lg shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:278:13">5</div>
+                    <h3 class="mt-4 font-semibold" data-tsd-source="/src/routes/index.tsx:281:13">Launch &amp; Growth</h3>
+                    <p class="mt-2 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:282:13">Go-live,
+                        iteration, optimisation and ongoing partnership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Industries We Serve</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Deep expertise across <span
+                        class="text-gradient">every vertical.</span></h2>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3" data-tsd-source="/src/routes/index.tsx:310:7">
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-stethoscope size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M11 2v2"></path>
+                        <path d="M5 2v2"></path>
+                        <path d="M5 3H4a2 2 0 0 0-2 2v4a6 6 0 0 0 12 0V5a2 2 0 0 0-2-2h-1"></path>
+                        <path d="M8 15a6 6 0 0 0 12 0v-3"></path>
+                        <circle cx="20" cy="10" r="2"></circle>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Healthcare</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-graduation-cap size-6 text-brand" aria-hidden="true"
+                        data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path
+                            d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+                        </path>
+                        <path d="M22 10v6"></path>
+                        <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Education</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        <path d="M3.103 6.034h17.794"></path>
+                        <path
+                            d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z">
+                        </path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Retail</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-utensils-crossed size-6 text-brand" aria-hidden="true"
+                        data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8"></path>
+                        <path d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"></path>
+                        <path d="m2.1 21.8 6.4-6.3"></path>
+                        <path d="m19 5-7 7"></path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Restaurants</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-factory size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M12 16h.01"></path>
+                        <path d="M16 16h.01"></path>
+                        <path
+                            d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z">
+                        </path>
+                        <path d="M8 16h.01"></path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Manufacturing</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+                        <path
+                            d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z">
+                        </path>
+                    </svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Real
+                        Estate</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                        <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+                    </svg><span class="mt-3 text-sm font-medium" data-tsd-source="/src/routes/index.tsx:314:13">Professional
+                        Services</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path>
+                        <rect x="2" y="6" width="14" height="12" rx="2"></rect>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Creators</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        <path d="M3.103 6.034h17.794"></path>
+                        <path
+                            d="M3.4 5.467a2 2 0 0 0-.4 1.2V20a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6.667a2 2 0 0 0-.4-1.2l-2-2.667A2 2 0 0 0 17 2H7a2 2 0 0 0-1.6.8z">
+                        </path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">E-commerce</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wrench size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path
+                            d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z">
+                        </path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Construction</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hotel size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M10 22v-6.57"></path>
+                        <path d="M12 11h.01"></path>
+                        <path d="M12 7h.01"></path>
+                        <path d="M14 15.43V22"></path>
+                        <path d="M15 16a5 5 0 0 0-6 0"></path>
+                        <path d="M16 11h.01"></path>
+                        <path d="M16 7h.01"></path>
+                        <path d="M8 11h.01"></path>
+                        <path d="M8 7h.01"></path>
+                        <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Hospitality</span></div>
+                <div class="rounded-xl border border-border bg-card p-5 flex flex-col items-center text-center card-hover"
+                    data-tsd-source="/src/routes/index.tsx:312:11"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                        height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-landmark size-6 text-brand"
+                        aria-hidden="true" data-tsd-source="/src/routes/index.tsx:313:13">
+                        <path d="M10 18v-7"></path>
+                        <path
+                            d="M11.12 2.198a2 2 0 0 1 1.76.006l7.866 3.847c.476.233.31.949-.22.949H3.474c-.53 0-.695-.716-.22-.949z">
+                        </path>
+                        <path d="M14 18v-7"></path>
+                        <path d="M18 18v-7"></path>
+                        <path d="M3 22h18"></path>
+                        <path d="M6 18v-7"></path>
+                    </svg><span class="mt-3 text-sm font-medium"
+                        data-tsd-source="/src/routes/index.tsx:314:13">Finance</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Technology Stack</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Best-in-class <span class="text-gradient">tools
+                        &amp; platforms.</span></h2>
+                <p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed"
+                    data-tsd-source="/src/components/site/Section.tsx:35:15">We're platform-agnostic and pick the right tool
+                    for your problem — not the one we're locked into.</p>
+            </div>
+            <div class="space-y-6" data-tsd-source="/src/routes/index.tsx:336:7">
+                <div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11">
+                    <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4"
+                        data-tsd-source="/src/routes/index.tsx:339:13">Development</div>
+                    <div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">WordPress</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Laravel</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">CodeIgniter</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Node.js</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">React</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Flutter</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">React Native</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">WooCommerce</span></div>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11">
+                    <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4"
+                        data-tsd-source="/src/routes/index.tsx:339:13">Marketing</div>
+                    <div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Meta Ads</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Google Ads</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Google Analytics</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Tag Manager</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Looker Studio</span></div>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11">
+                    <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4"
+                        data-tsd-source="/src/routes/index.tsx:339:13">CRM &amp; Automation</div>
+                    <div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">HubSpot</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Zoho</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Salesforce</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Mailchimp</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Klaviyo</span></div>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11">
+                    <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4"
+                        data-tsd-source="/src/routes/index.tsx:339:13">Cloud &amp; Payments</div>
+                    <div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">AWS</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">DigitalOcean</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Cloudflare</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Stripe</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Razorpay</span></div>
+                </div>
+                <div class="rounded-2xl border border-border bg-card p-6" data-tsd-source="/src/routes/index.tsx:338:11">
+                    <div class="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-4"
+                        data-tsd-source="/src/routes/index.tsx:339:13">Design</div>
+                    <div class="flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:340:13"><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Figma</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Canva</span><span
+                            class="px-3 py-1.5 rounded-lg border border-border bg-muted/50 text-sm font-medium"
+                            data-tsd-source="/src/routes/index.tsx:342:17">Adobe Creative Cloud</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Testimonials</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Trusted by leaders across <span
+                        class="text-gradient">industries.</span></h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6" data-tsd-source="/src/routes/index.tsx:365:7">
+                <figure class="rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"
+                    data-tsd-source="/src/routes/index.tsx:367:11">
+                    <div class="flex gap-0.5 text-brand-glow" data-tsd-source="/src/routes/index.tsx:368:13"><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span></div>
+                    <blockquote class="mt-4 text-sm leading-relaxed" data-tsd-source="/src/routes/index.tsx:371:13">
+                        "<!-- -->ProPresence streamlined our appointment system and localized our digital presence across Central Kerala. Their integrated WhatsApp booking framework dramatically reduced our patient drop-off rates<!-- -->"</blockquote>
+                    <figcaption class="mt-6 pt-5 border-t border-border flex items-center gap-3"
+                        data-tsd-source="/src/routes/index.tsx:372:13">
+                        <div class="size-10 rounded-full bg-gradient-brand grid place-items-center text-white font-semibold"
+                            data-tsd-source="/src/routes/index.tsx:373:15">P</div>
+                        <div data-tsd-source="/src/routes/index.tsx:376:15">
+                            <div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:377:17">Dr. Priya Nambiar
+                            </div>
+                            <div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:378:17">AstraCare Multi-Specialty Clinics</div>
+                        </div><span
+                            class="ml-auto text-[10px] px-2 py-1 rounded-md bg-muted border border-border text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:380:15">Healthcare</span>
+                    </figcaption>
+                </figure>
+                <figure class="rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"
+                    data-tsd-source="/src/routes/index.tsx:367:11">
+                    <div class="flex gap-0.5 text-brand-glow" data-tsd-source="/src/routes/index.tsx:368:13"><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span></div>
+                    <blockquote class="mt-4 text-sm leading-relaxed" data-tsd-source="/src/routes/index.tsx:371:13">
+                        "<!-- -->Navigating both regional preferences and export shipping demands was tough. ProPresence redesigned our digital storefront and optimized our local funnel, doubling direct online orders in five months.<!-- -->"</blockquote>
+                    <figcaption class="mt-6 pt-5 border-t border-border flex items-center gap-3"
+                        data-tsd-source="/src/routes/index.tsx:372:13">
+                        <div class="size-10 rounded-full bg-gradient-brand grid place-items-center text-white font-semibold"
+                            data-tsd-source="/src/routes/index.tsx:373:15">F</div>
+                        <div data-tsd-source="/src/routes/index.tsx:376:15">
+                            <div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:377:17">Firoz VKM</div>
+                            <div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:378:17">
+                                Managing Director, SpiceCraft India</div>
+                        </div><span
+                            class="ml-auto text-[10px] px-2 py-1 rounded-md bg-muted border border-border text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:380:15">Sustainable Products</span>
+                    </figcaption>
+                </figure>
+                <figure class="rounded-2xl border border-border bg-card p-7 card-hover flex flex-col"
+                    data-tsd-source="/src/routes/index.tsx:367:11">
+                    <div class="flex gap-0.5 text-brand-glow" data-tsd-source="/src/routes/index.tsx:368:13"><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span><span
+                            data-tsd-source="/src/routes/index.tsx:369:57">★</span></div>
+                    <blockquote class="mt-4 text-sm leading-relaxed" data-tsd-source="/src/routes/index.tsx:371:13">
+                        "<!-- -->Managing multi-currency attribution between our GCC clients and India team was a headache. ProPresence set up robust server-side tracking and custom pipeline analytics, giving us complete clarity on ROI.<!-- -->"</blockquote>
+                    <figcaption class="mt-6 pt-5 border-t border-border flex items-center gap-3"
+                        data-tsd-source="/src/routes/index.tsx:372:13">
+                        <div class="size-10 rounded-full bg-gradient-brand grid place-items-center text-white font-semibold"
+                            data-tsd-source="/src/routes/index.tsx:373:15">G</div>
+                        <div data-tsd-source="/src/routes/index.tsx:376:15">
+                            <div class="text-sm font-semibold" data-tsd-source="/src/routes/index.tsx:377:17">Gautam Panicker
+                            </div>
+                            <div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:378:17">Head of Marketing & Operations, CoreStack Systems</div>
+                        </div><span
+                            class="ml-auto text-[10px] px-2 py-1 rounded-md bg-muted border border-border text-muted-foreground"
+                            data-tsd-source="/src/routes/index.tsx:380:15">Enterprise Software</span>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5">
+        <div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7">
+            <div class="max-w-3xl mx-auto text-center mb-14" data-tsd-source="/src/components/site/Section.tsx:22:11">
+                <div class="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1 text-xs font-medium text-muted-foreground mx-auto"
+                    data-tsd-source="/src/components/site/Section.tsx:24:15"><span
+                        class="size-1.5 rounded-full bg-gradient-brand"
+                        data-tsd-source="/src/components/site/Section.tsx:25:17"></span>Pricing</div>
+                <h2 class="mt-4 text-3xl md:text-5xl font-bold tracking-tight"
+                    data-tsd-source="/src/components/site/Section.tsx:30:15">Transparent plans, <span
+                        class="text-gradient">custom quotes.</span></h2>
+                <p class="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed"
+                    data-tsd-source="/src/components/site/Section.tsx:35:15">Every engagement is scoped to your business.
+                    Book a consultation and we'll build a proposal that fits.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6" data-tsd-source="/src/routes/index.tsx:401:7">
+                <div class="rounded-2xl border p-7 card-hover relative border-border bg-card"
+                    data-tsd-source="/src/routes/index.tsx:403:11">
+                    <h3 class="text-xl font-bold" data-tsd-source="/src/routes/index.tsx:409:13">Startup</h3>
+                    <p class="mt-1 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:410:13">For
+                        founders establishing a brand and getting to market.</p>
+                    <div class="mt-6 font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:411:13">Custom
+                    </div>
+                    <div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:412:13">Tailored to
+                        your scope</div>
+                    <ul class="mt-6 space-y-2.5 text-sm" data-tsd-source="/src/routes/index.tsx:413:13">
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Brand identity</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Business website</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Local SEO &amp; GBP</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Basic ads setup</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Email support</li>
+                    </ul><a data-tsd-source="/src/routes/index.tsx:420:13" href="{{ route('contact') }}"
+                        class="mt-7 w-full btn-secondary">Book Consultation</a>
+                </div>
+                <div class="rounded-2xl border p-7 card-hover relative border-brand bg-card shadow-elegant"
+                    data-tsd-source="/src/routes/index.tsx:403:11">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 text-xs font-semibold px-3 py-1 rounded-full bg-gradient-brand text-white shadow-glow"
+                        data-tsd-source="/src/routes/index.tsx:405:15">Most popular</div>
+                    <h3 class="text-xl font-bold" data-tsd-source="/src/routes/index.tsx:409:13">Growth</h3>
+                    <p class="mt-1 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:410:13">For SMEs
+                        scaling revenue with paid, CRM and automation.</p>
+                    <div class="mt-6 font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:411:13">Custom
+                    </div>
+                    <div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:412:13">Tailored to
+                        your scope</div>
+                    <ul class="mt-6 space-y-2.5 text-sm" data-tsd-source="/src/routes/index.tsx:413:13">
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Everything in Startup</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Performance marketing</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->CRM &amp; automation</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Technical SEO</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Priority support</li>
+                    </ul><a data-tsd-source="/src/routes/index.tsx:420:13" href="{{ route('contact') }}"
+                        class="mt-7 w-full btn-primary">Book Consultation</a>
+                </div>
+                <div class="rounded-2xl border p-7 card-hover relative border-border bg-card"
+                    data-tsd-source="/src/routes/index.tsx:403:11">
+                    <h3 class="text-xl font-bold" data-tsd-source="/src/routes/index.tsx:409:13">Enterprise</h3>
+                    <p class="mt-1 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:410:13">For
+                        established teams with complex systems and scale.</p>
+                    <div class="mt-6 font-display text-4xl font-bold" data-tsd-source="/src/routes/index.tsx:411:13">Custom
+                    </div>
+                    <div class="text-xs text-muted-foreground" data-tsd-source="/src/routes/index.tsx:412:13">Tailored to
+                        your scope</div>
+                    <ul class="mt-6 space-y-2.5 text-sm" data-tsd-source="/src/routes/index.tsx:413:13">
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Custom software</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Cloud infrastructure</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->APIs &amp; ERP integration</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Analytics dashboards</li>
+                        <li class="flex items-start gap-2" data-tsd-source="/src/routes/index.tsx:415:17"><svg
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="lucide lucide-check size-4 text-success shrink-0 mt-0.5" aria-hidden="true"
+                                data-tsd-source="/src/routes/index.tsx:416:19">
+                                <path d="M20 6 9 17l-5-5"></path>
+                            </svg> <!-- -->Dedicated team</li>
+                    </ul><a data-tsd-source="/src/routes/index.tsx:420:13" href="{{ route('contact') }}"
+                        class="mt-7 w-full btn-secondary">Book Consultation</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="pb-24" data-tsd-source="/src/routes/index.tsx:432:5">
+        <div class="container-page" data-tsd-source="/src/routes/index.tsx:433:7">
+            <div class="relative overflow-hidden rounded-3xl border border-border p-10 md:p-16 bg-[oklch(0.19_0.04_264)] text-white"
+                data-tsd-source="/src/routes/index.tsx:434:9">
+                <div class="absolute inset-0 grid-bg opacity-20" data-tsd-source="/src/routes/index.tsx:435:11"></div>
+                <div class="absolute -right-24 -top-24 size-96 rounded-full bg-gradient-brand opacity-30 blur-3xl"
+                    data-tsd-source="/src/routes/index.tsx:436:11"></div>
+                <div class="relative max-w-2xl" data-tsd-source="/src/routes/index.tsx:437:11">
+                    <h2 class="font-display text-3xl md:text-5xl font-bold tracking-tight"
+                        data-tsd-source="/src/routes/index.tsx:438:13">Ready to engineer your <span class="text-gradient"
+                            data-tsd-source="/src/routes/index.tsx:439:38">next chapter?</span></h2>
+                    <p class="mt-4 text-white/70 text-lg" data-tsd-source="/src/routes/index.tsx:441:13">Book a free
+                        30-minute consultation. We'll audit your current setup and share a tailored roadmap — no obligation.
+                    </p>
+                    <div class="mt-8 flex flex-wrap gap-3" data-tsd-source="/src/routes/index.tsx:445:13"><a
+                            data-tsd-source="/src/routes/index.tsx:446:15" href="{{ route('contact') }}"
+                            class="btn-primary">Book a Free Consultation <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-4"
+                                aria-hidden="true" data-tsd-source="/src/routes/index.tsx:447:42">
+                                <path d="M5 12h14"></path>
+                                <path d="m12 5 7 7-7 7"></path>
+                            </svg></a><a data-tsd-source="/src/routes/index.tsx:449:15" href="{{ route('services') }}"
+                            class="btn-secondary bg-white/10 border-white/20 text-white hover:bg-white/15">Explore
+                            Services</a></div>
+                </div>
+            </div>
+        </div>
+    </section><!--/$-->
 @endsection
