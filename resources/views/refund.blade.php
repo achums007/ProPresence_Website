@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Refund Policy | ProPresence Digital')
-@section('meta_description', 'How refunds and cancellations work.')
+@section('title', 'Refund Policy — ProPresence Digital')
+@section('meta_description', 'Our refund policy for services and engagements.')
 
 @section('content')
-<section class="hero"><div class="container"><span class="eyebrow">Legal</span><h1>Refund Policy</h1><p class="lead">Applies to standard engagements.</p></div></section><section class="block"><div class="container" style="max-width:820px"><h3 style='color:#fff;margin-top:28px'>Retainers</h3><p>Cancelable with 30 days written notice; no partial-month refunds.</p><h3 style='color:#fff;margin-top:28px'>Fixed projects</h3><p>Milestone-based; completed milestones are non-refundable.</p><h3 style='color:#fff;margin-top:28px'>Disputes</h3><p>We prefer resolution before escalation — talk to your account lead first.</p></div></section>
+<!--$--><div class="bg-gradient-hero border-b border-border" data-tsd-source="/src/routes/refund.tsx:15:7"><div class="container-page py-16 max-w-3xl" data-tsd-source="/src/routes/refund.tsx:16:9"><h1 class="text-4xl md:text-5xl font-bold tracking-tight" data-tsd-source="/src/routes/refund.tsx:17:11">Refund Policy</h1></div></div><section class="section" data-tsd-source="/src/components/site/Section.tsx:19:5"><div class="container-page" data-tsd-source="/src/components/site/Section.tsx:20:7"><div class="max-w-3xl space-y-4 text-sm text-muted-foreground leading-relaxed" data-tsd-source="/src/routes/refund.tsx:21:9"><p data-tsd-source="/src/routes/refund.tsx:22:11">Refund eligibility is defined per engagement in the signed proposal. Placeholder content — please finalise with legal counsel.</p></div></div></section><!--/$-->
 @endsection

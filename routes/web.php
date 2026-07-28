@@ -61,3 +61,23 @@ Route::get('/refund', function () {
 Route::get('/disclaimer', function () {
     return view('disclaimer');
 })->name('disclaimer');
+
+Route::get('/services/foundational', function () {
+    return view('services-foundational');
+})->name('services.foundational');
+
+Route::get('/services/launch', function () {
+    return view('services-launch');
+})->name('services.launch');
+
+Route::get('/services/growth', function () {
+    return view('services-growth');
+})->name('services.growth');
+
+Route::get('/services/enterprise', function () {
+    return view('services-enterprise');
+})->name('services.enterprise');
+
+Route::get('/services/creator', function () {
+    return view('services-creator');
+})->name('services.creator');
