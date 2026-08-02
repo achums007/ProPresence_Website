@@ -137,7 +137,7 @@
                         <div data-tsd-source="/src/routes/contact.tsx:153:7">
                             <div class="text-xs uppercase tracking-wider text-muted-foreground font-semibold"
                                 data-tsd-source="/src/routes/contact.tsx:154:9">Phone</div>
-                            <div class="mt-1 font-medium" data-tsd-source="/src/routes/contact.tsx:155:9">+91 00000 00000
+                            <div class="mt-1 font-medium" data-tsd-source="/src/routes/contact.tsx:155:9">+91 79079 16891
                             </div>
                         </div>
                     </div>
