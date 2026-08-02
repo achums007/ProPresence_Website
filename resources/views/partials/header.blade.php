@@ -35,5 +35,28 @@
     <div class="pt-2 border-t border-border/60">
       <a href="https://wa.me/917907916891" class="btn-primary text-sm w-full justify-center inline-flex py-2.5">Book Consultation</a>
     </div>
-  </div>
+  <script>
+    (function() {
+      function initMobileMenu() {
+        var toggleBtn = document.getElementById('mobile-menu-toggle');
+        var mobileMenu = document.getElementById('mobile-menu');
+        if (toggleBtn && mobileMenu) {
+          toggleBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+          });
+          document.addEventListener('click', function (e) {
+            if (!mobileMenu.contains(e.target) && e.target !== toggleBtn && !toggleBtn.contains(e.target)) {
+              mobileMenu.classList.add('hidden');
+            }
+          });
+        }
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+      } else {
+        initMobileMenu();
+      }
+    })();
+  </script>
 </header>
