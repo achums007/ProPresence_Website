@@ -14,7 +14,7 @@
       <a data-tsd-source="/src/components/site/Header.tsx:30:13" class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('contact') ? 'text-foreground' : '' }}" href="{{ route('contact') }}" @if(Route::is('contact')) data-status="active" aria-current="page" @endif>Contact</a>
     </nav>
     <div class="hidden lg:flex items-center gap-3" data-tsd-source="/src/components/site/Header.tsx:42:9">
-      <a data-tsd-source="/src/components/site/Header.tsx:43:11" href="{{ route('contact') }}" class="btn-primary text-sm">Book Consultation</a>
+      <a data-tsd-source="/src/components/site/Header.tsx:43:11" href="https://wa.me/917907916891" class="btn-primary text-sm">Book Consultation</a>
     </div>
     <button class="lg:hidden inline-flex size-10 items-center justify-center rounded-md border border-border" aria-label="Toggle menu" data-tsd-source="/src/components/site/Header.tsx:48:9">
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu size-5" aria-hidden="true" data-tsd-source="/src/components/site/Header.tsx:53:46"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
