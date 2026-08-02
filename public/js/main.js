@@ -3,11 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
   var mobileMenu = document.getElementById('mobile-menu');
   
   if (toggleBtn && mobileMenu) {
-    toggleBtn.addEventListener('click', function (e) {
-      e.stopPropagation();
-      mobileMenu.classList.toggle('hidden');
-    });
-    
     // Close menu when clicking outside of it
     document.addEventListener('click', function (e) {
       if (!mobileMenu.contains(e.target) && e.target !== toggleBtn && !toggleBtn.contains(e.target)) {
