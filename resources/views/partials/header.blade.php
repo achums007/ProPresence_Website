@@ -20,6 +20,23 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu size-5" aria-hidden="true" data-tsd-source="/src/components/site/Header.tsx:53:46"><path d="M4 5h16"></path><path d="M4 12h16"></path><path d="M4 19h16"></path></svg>
     </button>
   </div>
+
+  <!-- Mobile Menu Dropdown -->
+  <div id="mobile-menu" class="hidden lg:hidden border-t border-border/60 bg-background/95 backdrop-blur-lg px-4 py-4 space-y-3">
+    <nav class="flex flex-col gap-2">
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('home') ? 'text-foreground bg-muted' : '' }}" href="{{ route('home') }}">Home</a>
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('services') || Route::is('services.*') ? 'text-foreground bg-muted' : '' }}" href="{{ route('services') }}">Services</a>
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('industries') ? 'text-foreground bg-muted' : '' }}" href="{{ route('industries') }}">Industries</a>
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('portfolio') ? 'text-foreground bg-muted' : '' }}" href="{{ route('portfolio') }}">Work</a>
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('pricing') ? 'text-foreground bg-muted' : '' }}" href="{{ route('pricing') }}">Pricing</a>
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('about') ? 'text-foreground bg-muted' : '' }}" href="{{ route('about') }}">About</a>
+      <a class="px-3 py-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors rounded-md {{ Route::is('contact') ? 'text-foreground bg-muted' : '' }}" href="{{ route('contact') }}">Contact</a>
+    </nav>
+    <div class="pt-2 border-t border-border/60">
+      <a href="https://wa.me/917907916891" class="btn-primary text-sm w-full justify-center inline-flex py-2.5">Book Consultation</a>
+    </div>
+  </div>
+
   @if(config('services.google.tag_id'))
       <!-- Google tag (gtag.js) -->
       <script async src="https://www.googletagmanager.com/gtag/js?id={{ config('services.google.tag_id') }}"></script>
@@ -31,4 +48,29 @@
         gtag('config', '{{ config("services.google.tag_id") }}');
       </script>
   @endif
+
+  <script>
+    (function() {
+      function initMobileMenu() {
+        var toggleBtn = document.getElementById('mobile-menu-toggle');
+        var mobileMenu = document.getElementById('mobile-menu');
+        if (toggleBtn && mobileMenu) {
+          toggleBtn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            mobileMenu.classList.toggle('hidden');
+          });
+          document.addEventListener('click', function (e) {
+            if (!mobileMenu.contains(e.target) && e.target !== toggleBtn && !toggleBtn.contains(e.target)) {
+              mobileMenu.classList.add('hidden');
+            }
+          });
+        }
+      }
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initMobileMenu);
+      } else {
+        initMobileMenu();
+      }
+    })();
+  </script>
 </header>
