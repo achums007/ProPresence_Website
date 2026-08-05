@@ -16,4 +16,17 @@ document.addEventListener('DOMContentLoaded', function () {
     var top = e.target.closest('[aria-label="Back to top"]');
     if (top) window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  // WhatsApp click tracking for Google Analytics
+  document.addEventListener('click', function (e) {
+    var waLink = e.target.closest('a[href*="wa.me"], a[href*="whatsapp.com"]');
+    if (waLink) {
+      if (typeof gtag === 'function') {
+        gtag('event', 'whatsapp_click', {
+          'event_category': 'Contact',
+          'event_label': waLink.href
+        });
+      }
+    }
+  });
 });
